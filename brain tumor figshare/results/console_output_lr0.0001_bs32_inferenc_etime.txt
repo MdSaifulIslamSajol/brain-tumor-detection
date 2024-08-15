@@ -1,0 +1,575 @@
+learning_rate : 0.0001
+batchsize : 32
+Total images found: 3063
+len(trainset):  2450
+len(testset):  613
+Training set mean: tensor([-1.4468, -1.3496, -1.1214])
+Training set std: tensor([0.6885, 0.7038, 0.7007])
+Test set mean: tensor([-1.4246, -1.3270, -1.0988])
+Test set std: tensor([0.6973, 0.7128, 0.7097])
+= = = = = = = = flag 1.11 = = = = = = = = = = = = =
+
+
+Training started with  Swinv2ForImageClassification
+== Swinv2ForImageClassification ==
+len(total_test_images) : 613
+Inference time per image for Swinv2ForImageClassification: 0.002737 seconds
+
+method_name: Swinv2ForImageClassification
+
+Metrics at the end of the first epoch:
+Test Accuracy: 95.9217%
+Precision: 0.9538
+Recall: 0.9590
+F1 Score: 0.9562
+Best model saved with test accuracy: 95.9217% at epoch 1
+Epoch : 001, Training: Loss: 0.4263, Accuracy: 81.6327%, Validation : Loss : 0.1625, Accuracy: 95.9217%, Time: 133.6563s
+flag1
+Last epoch :  1
+Training Finished for   Swinv2ForImageClassification
+len(train_acc_list)  1
+len(valid_acc_list)  1
+== On test data ==
+Test Accuracy: 95.9217%
+Precision: 0.9538
+Recall: 0.9590
+F1 Score: 0.9562
+Confusion Matrix:
+[[196   0   3]
+ [  0 244  13]
+ [  5   4 148]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9751    0.9849    0.9800       199
+           1     0.9839    0.9494    0.9663       257
+           2     0.9024    0.9427    0.9221       157
+
+    accuracy                         0.9592       613
+   macro avg     0.9538    0.9590    0.9562       613
+weighted avg     0.9602    0.9592    0.9594       613
+
+Class 0: Accuracy = 98.4925%
+Class 1: Accuracy = 94.9416%
+Class 2: Accuracy = 94.2675%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  Swinv2ForImageClassification
+
+
+Training started with  ViTForImageClassification
+== ViTForImageClassification ==
+len(total_test_images) : 613
+Inference time per image for ViTForImageClassification: 0.001000 seconds
+
+method_name: ViTForImageClassification
+
+Metrics at the end of the first epoch:
+Test Accuracy: 91.3540%
+Precision: 0.9159
+Recall: 0.9184
+F1 Score: 0.9079
+Best model saved with test accuracy: 91.3540% at epoch 1
+Epoch : 001, Training: Loss: 0.3883, Accuracy: 88.0816%, Validation : Loss : 0.2470, Accuracy: 91.3540%, Time: 139.3053s
+flag1
+Last epoch :  1
+Training Finished for   ViTForImageClassification
+len(train_acc_list)  1
+len(valid_acc_list)  1
+== On test data ==
+Test Accuracy: 91.3540%
+Precision: 0.9159
+Recall: 0.9184
+F1 Score: 0.9079
+Confusion Matrix:
+[[165   0  34]
+ [  0 238  19]
+ [  0   0 157]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     1.0000    0.8291    0.9066       199
+           1     1.0000    0.9261    0.9616       257
+           2     0.7476    1.0000    0.8556       157
+
+    accuracy                         0.9135       613
+   macro avg     0.9159    0.9184    0.9079       613
+weighted avg     0.9354    0.9135    0.9166       613
+
+Class 0: Accuracy = 82.9146%
+Class 1: Accuracy = 92.6070%
+Class 2: Accuracy = 100.0000%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  ViTForImageClassification
+
+
+Training started with  ConvNextV2ForImageClassification
+== ConvNextV2ForImageClassification ==
+len(total_test_images) : 613
+Inference time per image for ConvNextV2ForImageClassification: 0.000941 seconds
+
+method_name: ConvNextV2ForImageClassification
+
+Metrics at the end of the first epoch:
+Test Accuracy: 87.9282%
+Precision: 0.8924
+Recall: 0.8844
+F1 Score: 0.8715
+Best model saved with test accuracy: 87.9282% at epoch 1
+Epoch : 001, Training: Loss: 0.3545, Accuracy: 86.2857%, Validation : Loss : 0.2943, Accuracy: 87.9282%, Time: 120.7021s
+flag1
+Last epoch :  1
+Training Finished for   ConvNextV2ForImageClassification
+len(train_acc_list)  1
+len(valid_acc_list)  1
+== On test data ==
+Test Accuracy: 87.9282%
+Precision: 0.8924
+Recall: 0.8844
+F1 Score: 0.8715
+Confusion Matrix:
+[[147   2  50]
+ [  0 235  22]
+ [  0   0 157]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     1.0000    0.7387    0.8497       199
+           1     0.9916    0.9144    0.9514       257
+           2     0.6856    1.0000    0.8135       157
+
+    accuracy                         0.8793       613
+   macro avg     0.8924    0.8844    0.8715       613
+weighted avg     0.9159    0.8793    0.8831       613
+
+Class 0: Accuracy = 73.8693%
+Class 1: Accuracy = 91.4397%
+Class 2: Accuracy = 100.0000%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  ConvNextV2ForImageClassification
+
+
+Training started with  CvtForImageClassification
+== CvtForImageClassification ==
+len(total_test_images) : 613
+Inference time per image for CvtForImageClassification: 0.001394 seconds
+
+method_name: CvtForImageClassification
+
+Metrics at the end of the first epoch:
+Test Accuracy: 85.3181%
+Precision: 0.8517
+Recall: 0.8362
+F1 Score: 0.8342
+Best model saved with test accuracy: 85.3181% at epoch 1
+Epoch : 001, Training: Loss: 0.6026, Accuracy: 74.5306%, Validation : Loss : 0.3664, Accuracy: 85.3181%, Time: 88.6960s
+flag1
+Last epoch :  1
+Training Finished for   CvtForImageClassification
+len(train_acc_list)  1
+len(valid_acc_list)  1
+== On test data ==
+Test Accuracy: 85.3181%
+Precision: 0.8517
+Recall: 0.8362
+F1 Score: 0.8342
+Confusion Matrix:
+[[199   0   0]
+ [ 12 224  21]
+ [ 47  10 100]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.7713    1.0000    0.8709       199
+           1     0.9573    0.8716    0.9124       257
+           2     0.8264    0.6369    0.7194       157
+
+    accuracy                         0.8532       613
+   macro avg     0.8517    0.8362    0.8342       613
+weighted avg     0.8634    0.8532    0.8495       613
+
+Class 0: Accuracy = 100.0000%
+Class 1: Accuracy = 87.1595%
+Class 2: Accuracy = 63.6943%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  CvtForImageClassification
+
+
+Training started with  EfficientFormerForImageClassification
+== EfficientFormerForImageClassification ==
+len(total_test_images) : 613
+Inference time per image for EfficientFormerForImageClassification: 0.000461 seconds
+
+method_name: EfficientFormerForImageClassification
+
+Metrics at the end of the first epoch:
+Test Accuracy: 92.4959%
+Precision: 0.9180
+Recall: 0.9282
+F1 Score: 0.9213
+Best model saved with test accuracy: 92.4959% at epoch 1
+Epoch : 001, Training: Loss: 0.4677, Accuracy: 83.1429%, Validation : Loss : 0.1990, Accuracy: 92.4959%, Time: 79.3439s
+flag1
+Last epoch :  1
+Training Finished for   EfficientFormerForImageClassification
+len(train_acc_list)  1
+len(valid_acc_list)  1
+== On test data ==
+Test Accuracy: 92.4959%
+Precision: 0.9180
+Recall: 0.9282
+F1 Score: 0.9213
+Confusion Matrix:
+[[193   1   5]
+ [  0 229  28]
+ [  7   5 145]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9650    0.9698    0.9674       199
+           1     0.9745    0.8911    0.9309       257
+           2     0.8146    0.9236    0.8657       157
+
+    accuracy                         0.9250       613
+   macro avg     0.9180    0.9282    0.9213       613
+weighted avg     0.9305    0.9250    0.9260       613
+
+Class 0: Accuracy = 96.9849%
+Class 1: Accuracy = 89.1051%
+Class 2: Accuracy = 92.3567%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  EfficientFormerForImageClassification
+
+
+Training started with  PvtV2ForImageClassification
+== PvtV2ForImageClassification ==
+len(total_test_images) : 613
+Inference time per image for PvtV2ForImageClassification: 0.000877 seconds
+
+method_name: PvtV2ForImageClassification
+
+Metrics at the end of the first epoch:
+Test Accuracy: 91.8434%
+Precision: 0.9148
+Recall: 0.9091
+F1 Score: 0.9117
+Best model saved with test accuracy: 91.8434% at epoch 1
+Epoch : 001, Training: Loss: 0.4365, Accuracy: 82.1633%, Validation : Loss : 0.2263, Accuracy: 91.8434%, Time: 82.4835s
+flag1
+Last epoch :  1
+Training Finished for   PvtV2ForImageClassification
+len(train_acc_list)  1
+len(valid_acc_list)  1
+== On test data ==
+Test Accuracy: 91.8434%
+Precision: 0.9148
+Recall: 0.9091
+F1 Score: 0.9117
+Confusion Matrix:
+[[187   2  10]
+ [  0 245  12]
+ [  5  21 131]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9740    0.9397    0.9565       199
+           1     0.9142    0.9533    0.9333       257
+           2     0.8562    0.8344    0.8452       157
+
+    accuracy                         0.9184       613
+   macro avg     0.9148    0.9091    0.9117       613
+weighted avg     0.9187    0.9184    0.9183       613
+
+Class 0: Accuracy = 93.9698%
+Class 1: Accuracy = 95.3307%
+Class 2: Accuracy = 83.4395%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  PvtV2ForImageClassification
+
+
+Training started with  MobileViTV2ForImageClassification
+== MobileViTV2ForImageClassification ==
+len(total_test_images) : 613
+Inference time per image for MobileViTV2ForImageClassification: 0.000660 seconds
+
+method_name: MobileViTV2ForImageClassification
+
+Metrics at the end of the first epoch:
+Test Accuracy: 86.1338%
+Precision: 0.8671
+Recall: 0.8327
+F1 Score: 0.8401
+Best model saved with test accuracy: 86.1338% at epoch 1
+Epoch : 001, Training: Loss: 0.8966, Accuracy: 77.4694%, Validation : Loss : 0.4367, Accuracy: 86.1338%, Time: 83.9962s
+flag1
+Last epoch :  1
+Training Finished for   MobileViTV2ForImageClassification
+len(train_acc_list)  1
+len(valid_acc_list)  1
+== On test data ==
+Test Accuracy: 86.1338%
+Precision: 0.8671
+Recall: 0.8327
+F1 Score: 0.8401
+Confusion Matrix:
+[[190   3   6]
+ [  0 246  11]
+ [ 11  54  92]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9453    0.9548    0.9500       199
+           1     0.8119    0.9572    0.8786       257
+           2     0.8440    0.5860    0.6917       157
+
+    accuracy                         0.8613       613
+   macro avg     0.8671    0.8327    0.8401       613
+weighted avg     0.8634    0.8613    0.8539       613
+
+Class 0: Accuracy = 95.4774%
+Class 1: Accuracy = 95.7198%
+Class 2: Accuracy = 58.5987%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  MobileViTV2ForImageClassification
+
+
+Training started with  resnet50ForImageClassification
+== resnet50ForImageClassification ==
+len(total_test_images) : 613
+Inference time per image for resnet50ForImageClassification: 0.000565 seconds
+
+method_name: resnet50ForImageClassification
+
+Metrics at the end of the first epoch:
+Test Accuracy: 96.5742%
+Precision: 0.9614
+Recall: 0.9662
+F1 Score: 0.9636
+Best model saved with test accuracy: 96.5742% at epoch 1
+Epoch : 001, Training: Loss: 0.2794, Accuracy: 89.4694%, Validation : Loss : 0.0852, Accuracy: 96.5742%, Time: 83.2997s
+flag1
+Last epoch :  1
+Training Finished for   resnet50ForImageClassification
+len(train_acc_list)  1
+len(valid_acc_list)  1
+== On test data ==
+Test Accuracy: 96.5742%
+Precision: 0.9614
+Recall: 0.9662
+F1 Score: 0.9636
+Confusion Matrix:
+[[197   0   2]
+ [  2 245  10]
+ [  4   3 150]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9704    0.9899    0.9801       199
+           1     0.9879    0.9533    0.9703       257
+           2     0.9259    0.9554    0.9404       157
+
+    accuracy                         0.9657       613
+   macro avg     0.9614    0.9662    0.9636       613
+weighted avg     0.9664    0.9657    0.9658       613
+
+Class 0: Accuracy = 98.9950%
+Class 1: Accuracy = 95.3307%
+Class 2: Accuracy = 95.5414%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  resnet50ForImageClassification
+
+
+Training started with  vgg16ForImageClassification
+== vgg16ForImageClassification ==
+len(total_test_images) : 613
+Inference time per image for vgg16ForImageClassification: 0.000097 seconds
+
+method_name: vgg16ForImageClassification
+
+Metrics at the end of the first epoch:
+Test Accuracy: 92.3328%
+Precision: 0.9247
+Recall: 0.9079
+F1 Score: 0.9142
+Best model saved with test accuracy: 92.3328% at epoch 1
+Epoch : 001, Training: Loss: 0.4008, Accuracy: 83.5510%, Validation : Loss : 0.2172, Accuracy: 92.3328%, Time: 68.0516s
+flag1
+Last epoch :  1
+Training Finished for   vgg16ForImageClassification
+len(train_acc_list)  1
+len(valid_acc_list)  1
+== On test data ==
+Test Accuracy: 92.3328%
+Precision: 0.9247
+Recall: 0.9079
+F1 Score: 0.9142
+Confusion Matrix:
+[[191   1   7]
+ [  0 252   5]
+ [  8  26 123]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9598    0.9598    0.9598       199
+           1     0.9032    0.9805    0.9403       257
+           2     0.9111    0.7834    0.8425       157
+
+    accuracy                         0.9233       613
+   macro avg     0.9247    0.9079    0.9142       613
+weighted avg     0.9236    0.9233    0.9216       613
+
+Class 0: Accuracy = 95.9799%
+Class 1: Accuracy = 98.0545%
+Class 2: Accuracy = 78.3439%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  vgg16ForImageClassification
+
+
+Training started with  mobilenetForImageClassification
+== mobilenetForImageClassification ==
+len(total_test_images) : 613
+Inference time per image for mobilenetForImageClassification: 0.000286 seconds
+
+method_name: mobilenetForImageClassification
+
+Metrics at the end of the first epoch:
+Test Accuracy: 93.4747%
+Precision: 0.9277
+Recall: 0.9309
+F1 Score: 0.9291
+Best model saved with test accuracy: 93.4747% at epoch 1
+Epoch : 001, Training: Loss: 0.3746, Accuracy: 86.4898%, Validation : Loss : 0.1682, Accuracy: 93.4747%, Time: 56.7990s
+flag1
+Last epoch :  1
+Training Finished for   mobilenetForImageClassification
+len(train_acc_list)  1
+len(valid_acc_list)  1
+== On test data ==
+Test Accuracy: 93.4747%
+Precision: 0.9277
+Recall: 0.9309
+F1 Score: 0.9291
+Confusion Matrix:
+[[195   0   4]
+ [  0 240  17]
+ [ 10   9 138]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9512    0.9799    0.9653       199
+           1     0.9639    0.9339    0.9486       257
+           2     0.8679    0.8790    0.8734       157
+
+    accuracy                         0.9347       613
+   macro avg     0.9277    0.9309    0.9291       613
+weighted avg     0.9352    0.9347    0.9348       613
+
+Class 0: Accuracy = 97.9899%
+Class 1: Accuracy = 93.3852%
+Class 2: Accuracy = 87.8981%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  mobilenetForImageClassification
+
+
+Training started with  googlenetForImageClassification
+== googlenetForImageClassification ==
+len(total_test_images) : 613
+Inference time per image for googlenetForImageClassification: 0.000429 seconds
+
+method_name: googlenetForImageClassification
+
+Metrics at the end of the first epoch:
+Test Accuracy: 93.6378%
+Precision: 0.9328
+Recall: 0.9276
+F1 Score: 0.9291
+Best model saved with test accuracy: 93.6378% at epoch 1
+Epoch : 001, Training: Loss: 0.4489, Accuracy: 85.5102%, Validation : Loss : 0.2009, Accuracy: 93.6378%, Time: 57.2866s
+flag1
+Last epoch :  1
+Training Finished for   googlenetForImageClassification
+len(train_acc_list)  1
+len(valid_acc_list)  1
+== On test data ==
+Test Accuracy: 93.6378%
+Precision: 0.9328
+Recall: 0.9276
+F1 Score: 0.9291
+Confusion Matrix:
+[[198   0   1]
+ [  1 245  11]
+ [ 15  11 131]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9252    0.9950    0.9588       199
+           1     0.9570    0.9533    0.9552       257
+           2     0.9161    0.8344    0.8733       157
+
+    accuracy                         0.9364       613
+   macro avg     0.9328    0.9276    0.9291       613
+weighted avg     0.9362    0.9364    0.9354       613
+
+Class 0: Accuracy = 99.4975%
+Class 1: Accuracy = 95.3307%
+Class 2: Accuracy = 83.4395%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  googlenetForImageClassification
+
+
+Training started with  efficientnet_b0ForImageClassification
+== efficientnet_b0ForImageClassification ==
+len(total_test_images) : 613
+Inference time per image for efficientnet_b0ForImageClassification: 0.000517 seconds
+
+method_name: efficientnet_b0ForImageClassification
+
+Metrics at the end of the first epoch:
+Test Accuracy: 92.0065%
+Precision: 0.9158
+Recall: 0.9139
+F1 Score: 0.9148
+Best model saved with test accuracy: 92.0065% at epoch 1
+Epoch : 001, Training: Loss: 0.5774, Accuracy: 82.3265%, Validation : Loss : 0.2164, Accuracy: 92.0065%, Time: 59.6256s
+flag1
+Last epoch :  1
+Training Finished for   efficientnet_b0ForImageClassification
+len(train_acc_list)  1
+len(valid_acc_list)  1
+== On test data ==
+Test Accuracy: 92.0065%
+Precision: 0.9158
+Recall: 0.9139
+F1 Score: 0.9148
+Confusion Matrix:
+[[194   1   4]
+ [  1 238  18]
+ [  4  21 132]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9749    0.9749    0.9749       199
+           1     0.9154    0.9261    0.9207       257
+           2     0.8571    0.8408    0.8489       157
+
+    accuracy                         0.9201       613
+   macro avg     0.9158    0.9139    0.9148       613
+weighted avg     0.9198    0.9201    0.9199       613
+
+Class 0: Accuracy = 97.4874%
+Class 1: Accuracy = 92.6070%
+Class 2: Accuracy = 84.0764%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  efficientnet_b0ForImageClassification
+= = = = = = = = execution finished = = = = = = = = = = = = =

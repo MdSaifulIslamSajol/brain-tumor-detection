@@ -1,0 +1,47 @@
+learning_rate : 0.001
+batchsize : 32
+len(trainset)  2870
+len(testset)  394
+Training set mean: tensor([-1.3385, -1.2389, -1.0112])
+Training set std: tensor([0.7549, 0.7717, 0.7683])
+Test set mean: tensor([-1.0279, -0.9214, -0.6950])
+Test set std: tensor([0.9416, 0.9627, 0.9584])
+= = = = = = = = flag 1.11 = = = = = = = = = = = = =
+
+
+Training started with  Swinv2ForImageClassification
+== Swinv2ForImageClassification ==
+
+method_name: Swinv2ForImageClassification
+
+Metrics at the end of the first epoch:
+Test Accuracy: 31.9797%
+Precision: 0.2259
+Recall: 0.3022
+F1 Score: 0.2039
+Best model saved with test accuracy: 31.9797% at epoch 1
+Epoch : 001, Training: Loss: 1.3273, Accuracy: 32.1254%, Validation : Loss : 1.7288, Accuracy: 31.9797%, Time: 95.3227s
+Epoch : 002, Training: Loss: 1.2249, Accuracy: 39.4425%, Validation : Loss : 1.8317, Accuracy: 26.3959%, Time: 95.7580s
+Epoch : 003, Training: Loss: 1.2190, Accuracy: 40.2439%, Validation : Loss : 2.1013, Accuracy: 25.1269%, Time: 95.1727s
+Epoch : 004, Training: Loss: 1.2886, Accuracy: 34.9129%, Validation : Loss : 1.4527, Accuracy: 29.1878%, Time: 95.9409s
+Epoch : 005, Training: Loss: 1.3550, Accuracy: 27.8397%, Validation : Loss : 1.4194, Accuracy: 29.1878%, Time: 95.9896s
+Epoch : 006, Training: Loss: 1.3511, Accuracy: 28.6760%, Validation : Loss : 1.4561, Accuracy: 18.7817%, Time: 98.8497s
+Epoch : 007, Training: Loss: 1.3507, Accuracy: 27.9443%, Validation : Loss : 1.4462, Accuracy: 18.7817%, Time: 97.0891s
+Epoch : 008, Training: Loss: 1.3514, Accuracy: 28.3972%, Validation : Loss : 1.4365, Accuracy: 25.3807%, Time: 94.0900s
+Epoch : 009, Training: Loss: 1.3518, Accuracy: 28.6411%, Validation : Loss : 1.4625, Accuracy: 25.3807%, Time: 98.4264s
+Epoch : 010, Training: Loss: 1.3504, Accuracy: 29.6167%, Validation : Loss : 1.4518, Accuracy: 25.3807%, Time: 75.8460s
+Epoch : 011, Training: Loss: 1.3520, Accuracy: 27.4913%, Validation : Loss : 1.4612, Accuracy: 18.7817%, Time: 80.9928s
+Epoch : 012, Training: Loss: 1.3504, Accuracy: 28.4669%, Validation : Loss : 1.4265, Accuracy: 29.1878%, Time: 77.3726s
+Epoch : 013, Training: Loss: 1.3519, Accuracy: 29.6516%, Validation : Loss : 1.4713, Accuracy: 18.7817%, Time: 79.3067s
+Epoch : 014, Training: Loss: 1.3523, Accuracy: 27.1080%, Validation : Loss : 1.4394, Accuracy: 25.3807%, Time: 81.5739s
+Epoch : 015, Training: Loss: 1.3508, Accuracy: 27.3171%, Validation : Loss : 1.4310, Accuracy: 25.3807%, Time: 77.6495s
+Epoch : 016, Training: Loss: 1.3524, Accuracy: 26.4111%, Validation : Loss : 1.4396, Accuracy: 25.3807%, Time: 79.9073s
+Epoch : 017, Training: Loss: 1.3487, Accuracy: 29.9652%, Validation : Loss : 1.4242, Accuracy: 29.1878%, Time: 79.5330s
+Epoch : 018, Training: Loss: 1.3508, Accuracy: 28.7456%, Validation : Loss : 1.4354, Accuracy: 18.7817%, Time: 74.9698s
+Epoch : 019, Training: Loss: 1.3509, Accuracy: 29.0244%, Validation : Loss : 1.4482, Accuracy: 25.3807%, Time: 80.0708s
+Epoch : 020, Training: Loss: 1.3507, Accuracy: 28.8850%, Validation : Loss : 1.4329, Accuracy: 18.7817%, Time: 75.8530s
+Epoch : 021, Training: Loss: 1.3507, Accuracy: 28.1533%, Validation : Loss : 1.4341, Accuracy: 18.7817%, Time: 73.2242s
+Epoch : 022, Training: Loss: 1.3510, Accuracy: 28.2230%, Validation : Loss : 1.4404, Accuracy: 29.1878%, Time: 73.9306s
+Epoch : 023, Training: Loss: 1.3502, Accuracy: 26.9338%, Validation : Loss : 1.4404, Accuracy: 29.1878%, Time: 79.1442s
+Epoch : 024, Training: Loss: 1.3505, Accuracy: 27.9791%, Validation : Loss : 1.4358, Accuracy: 25.3807%, Time: 75.5173s
+Epoch : 025, Training: Loss: 1.3515, Accuracy: 27.4216%, Validation : Loss : 1.4460, Accuracy: 18.7817%, Time: 79.7648s

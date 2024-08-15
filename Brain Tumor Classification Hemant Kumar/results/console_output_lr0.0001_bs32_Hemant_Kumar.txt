@@ -1,0 +1,883 @@
+learning_rate : 0.0001
+batchsize : 32
+Total number of images: 3064
+Unique value counts in y_raw (using NumPy):
+dict_items([(1, 708), (2, 1426), (3, 930)])
+torch.Size([32, 3, 224, 224])
+torch.Size([32])
+Training set mean: tensor([-1.4467, -1.3496, -1.1213])
+Training set std: tensor([0.6919, 0.7074, 0.7042])
+Test set mean: tensor([-1.4354, -1.3380, -1.1098])
+Test set std: tensor([0.6894, 0.7047, 0.7016])
+= = = = = = = = flag 1.11 = = = = = = = = = = = = =
+
+
+Training started with  Swinv2ForImageClassification
+== Swinv2ForImageClassification ==
+Best model saved with test accuracy: 94.6166% at epoch 1
+Epoch : 001, Training: Loss: 0.4553, Accuracy: 80.0898%, Validation : Loss : 0.1523, Accuracy: 94.6166%, Time: 20.3636s
+Epoch : 002, Training: Loss: 0.1779, Accuracy: 93.3089%, Validation : Loss : 0.1376, Accuracy: 94.1272%, Time: 18.3850s
+Best model saved with test accuracy: 97.2268% at epoch 3
+Epoch : 003, Training: Loss: 0.1387, Accuracy: 94.8184%, Validation : Loss : 0.0749, Accuracy: 97.2268%, Time: 18.7763s
+Epoch : 004, Training: Loss: 0.1063, Accuracy: 95.7976%, Validation : Loss : 0.1013, Accuracy: 96.2480%, Time: 18.2427s
+Epoch : 005, Training: Loss: 0.0933, Accuracy: 96.6544%, Validation : Loss : 0.0781, Accuracy: 96.9005%, Time: 18.3078s
+Best model saved with test accuracy: 98.8581% at epoch 6
+Epoch : 006, Training: Loss: 0.0760, Accuracy: 97.1440%, Validation : Loss : 0.0394, Accuracy: 98.8581%, Time: 19.0037s
+Epoch : 007, Training: Loss: 0.0646, Accuracy: 98.0008%, Validation : Loss : 0.0409, Accuracy: 98.5318%, Time: 18.3485s
+Epoch : 008, Training: Loss: 0.0543, Accuracy: 98.1640%, Validation : Loss : 0.0576, Accuracy: 98.0424%, Time: 18.5981s
+Epoch : 009, Training: Loss: 0.0513, Accuracy: 98.2048%, Validation : Loss : 0.0949, Accuracy: 96.7374%, Time: 18.2901s
+Epoch : 010, Training: Loss: 0.0628, Accuracy: 97.5520%, Validation : Loss : 0.0435, Accuracy: 98.2055%, Time: 18.3042s
+Epoch : 011, Training: Loss: 0.0485, Accuracy: 98.4088%, Validation : Loss : 0.0565, Accuracy: 97.8793%, Time: 18.2536s
+Epoch : 012, Training: Loss: 0.0552, Accuracy: 98.2456%, Validation : Loss : 0.0496, Accuracy: 98.6949%, Time: 18.4479s
+Epoch : 013, Training: Loss: 0.0392, Accuracy: 98.5720%, Validation : Loss : 0.0700, Accuracy: 98.2055%, Time: 18.2433s
+Epoch : 014, Training: Loss: 0.0286, Accuracy: 98.8576%, Validation : Loss : 0.0567, Accuracy: 98.3687%, Time: 18.6327s
+Epoch : 015, Training: Loss: 0.0658, Accuracy: 97.6336%, Validation : Loss : 0.0838, Accuracy: 97.3899%, Time: 18.4656s
+Epoch : 016, Training: Loss: 0.0252, Accuracy: 99.2656%, Validation : Loss : 0.0620, Accuracy: 98.5318%, Time: 18.3325s
+Epoch : 017, Training: Loss: 0.0327, Accuracy: 98.8984%, Validation : Loss : 0.1024, Accuracy: 96.4111%, Time: 18.1640s
+Best model saved with test accuracy: 99.1843% at epoch 18
+Epoch : 018, Training: Loss: 0.0316, Accuracy: 98.8576%, Validation : Loss : 0.0322, Accuracy: 99.1843%, Time: 18.9644s
+Epoch : 019, Training: Loss: 0.0391, Accuracy: 98.8984%, Validation : Loss : 0.0427, Accuracy: 99.0212%, Time: 18.3232s
+Epoch : 020, Training: Loss: 0.0492, Accuracy: 98.2456%, Validation : Loss : 0.0383, Accuracy: 98.8581%, Time: 18.4376s
+Epoch : 021, Training: Loss: 0.0280, Accuracy: 98.8984%, Validation : Loss : 0.0482, Accuracy: 98.2055%, Time: 18.2387s
+Epoch : 022, Training: Loss: 0.0316, Accuracy: 98.6536%, Validation : Loss : 0.0449, Accuracy: 98.8581%, Time: 18.1696s
+Epoch : 023, Training: Loss: 0.0190, Accuracy: 99.2656%, Validation : Loss : 0.0588, Accuracy: 98.0424%, Time: 18.5038s
+Epoch : 024, Training: Loss: 0.0288, Accuracy: 99.2248%, Validation : Loss : 0.0565, Accuracy: 98.0424%, Time: 18.1246s
+Epoch : 025, Training: Loss: 0.0323, Accuracy: 98.9392%, Validation : Loss : 0.1294, Accuracy: 95.2692%, Time: 18.2431s
+Epoch : 026, Training: Loss: 0.0252, Accuracy: 99.2248%, Validation : Loss : 0.0976, Accuracy: 97.8793%, Time: 18.4183s
+Epoch : 027, Training: Loss: 0.0317, Accuracy: 98.8984%, Validation : Loss : 0.0369, Accuracy: 99.0212%, Time: 18.4159s
+Epoch : 028, Training: Loss: 0.0183, Accuracy: 99.3064%, Validation : Loss : 0.0503, Accuracy: 98.5318%, Time: 18.3052s
+Epoch : 029, Training: Loss: 0.0200, Accuracy: 99.4696%, Validation : Loss : 0.0579, Accuracy: 98.0424%, Time: 18.4509s
+flag1
+Last epoch :  29
+Training Finished for   Swinv2ForImageClassification
+len(train_acc_list)  29
+len(valid_acc_list)  29
+== On test data ==
+Test Accuracy: 99.1843%
+Precision: 0.9894
+Recall: 0.9929
+F1 Score: 0.9911
+Confusion Matrix:
+[[138   1   0]
+ [  4 282   0]
+ [  0   0 188]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9718    0.9928    0.9822       139
+           1     0.9965    0.9860    0.9912       286
+           2     1.0000    1.0000    1.0000       188
+
+    accuracy                         0.9918       613
+   macro avg     0.9894    0.9929    0.9911       613
+weighted avg     0.9920    0.9918    0.9919       613
+
+Class 0: Accuracy = 99.2806%
+Class 1: Accuracy = 98.6014%
+Class 2: Accuracy = 100.0000%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  Swinv2ForImageClassification
+
+
+Training started with  ViTForImageClassification
+== ViTForImageClassification ==
+Best model saved with test accuracy: 96.2480% at epoch 1
+Epoch : 001, Training: Loss: 0.3792, Accuracy: 86.4545%, Validation : Loss : 0.1351, Accuracy: 96.2480%, Time: 32.8944s
+Epoch : 002, Training: Loss: 0.1513, Accuracy: 95.3488%, Validation : Loss : 0.1435, Accuracy: 95.5954%, Time: 30.5199s
+Epoch : 003, Training: Loss: 0.0945, Accuracy: 97.2256%, Validation : Loss : 0.1056, Accuracy: 96.0848%, Time: 30.4689s
+Best model saved with test accuracy: 97.7162% at epoch 4
+Epoch : 004, Training: Loss: 0.0628, Accuracy: 98.3272%, Validation : Loss : 0.0860, Accuracy: 97.7162%, Time: 32.9139s
+Epoch : 005, Training: Loss: 0.0690, Accuracy: 97.5928%, Validation : Loss : 0.1493, Accuracy: 93.4747%, Time: 31.0275s
+Epoch : 006, Training: Loss: 0.0458, Accuracy: 98.6128%, Validation : Loss : 0.1763, Accuracy: 95.2692%, Time: 31.1212s
+Best model saved with test accuracy: 97.8793% at epoch 7
+Epoch : 007, Training: Loss: 0.0425, Accuracy: 98.4496%, Validation : Loss : 0.0737, Accuracy: 97.8793%, Time: 33.0592s
+Epoch : 008, Training: Loss: 0.0582, Accuracy: 98.1232%, Validation : Loss : 0.2147, Accuracy: 93.6378%, Time: 30.9725s
+Epoch : 009, Training: Loss: 0.0443, Accuracy: 98.6128%, Validation : Loss : 0.1230, Accuracy: 96.4111%, Time: 30.8167s
+Epoch : 010, Training: Loss: 0.0755, Accuracy: 97.6336%, Validation : Loss : 0.0822, Accuracy: 97.7162%, Time: 30.9573s
+Epoch : 011, Training: Loss: 0.0363, Accuracy: 98.9800%, Validation : Loss : 0.0751, Accuracy: 97.8793%, Time: 30.6341s
+Best model saved with test accuracy: 98.0424% at epoch 12
+Epoch : 012, Training: Loss: 0.0251, Accuracy: 99.3064%, Validation : Loss : 0.0503, Accuracy: 98.0424%, Time: 33.1304s
+Epoch : 013, Training: Loss: 0.0191, Accuracy: 99.3880%, Validation : Loss : 0.0893, Accuracy: 96.9005%, Time: 30.8998s
+Epoch : 014, Training: Loss: 0.0299, Accuracy: 99.0616%, Validation : Loss : 0.0851, Accuracy: 97.3899%, Time: 30.5985s
+Epoch : 015, Training: Loss: 0.0132, Accuracy: 99.7552%, Validation : Loss : 0.0562, Accuracy: 97.8793%, Time: 31.0754s
+Best model saved with test accuracy: 98.3687% at epoch 16
+Epoch : 016, Training: Loss: 0.0183, Accuracy: 99.6328%, Validation : Loss : 0.0543, Accuracy: 98.3687%, Time: 32.9925s
+Epoch : 017, Training: Loss: 0.0215, Accuracy: 99.2248%, Validation : Loss : 0.0807, Accuracy: 97.7162%, Time: 31.0938s
+Epoch : 018, Training: Loss: 0.0117, Accuracy: 99.5920%, Validation : Loss : 0.0859, Accuracy: 98.0424%, Time: 31.0179s
+Epoch : 019, Training: Loss: 0.0120, Accuracy: 99.7552%, Validation : Loss : 0.0950, Accuracy: 97.2268%, Time: 31.0466s
+Epoch : 020, Training: Loss: 0.0251, Accuracy: 99.1024%, Validation : Loss : 0.0913, Accuracy: 97.2268%, Time: 30.5571s
+Epoch : 021, Training: Loss: 0.0398, Accuracy: 98.6128%, Validation : Loss : 0.0857, Accuracy: 97.3899%, Time: 30.8018s
+Epoch : 022, Training: Loss: 0.0227, Accuracy: 99.2248%, Validation : Loss : 0.0784, Accuracy: 97.8793%, Time: 30.3714s
+Epoch : 023, Training: Loss: 0.0182, Accuracy: 99.5104%, Validation : Loss : 0.0697, Accuracy: 98.2055%, Time: 31.2930s
+Epoch : 024, Training: Loss: 0.0258, Accuracy: 99.2656%, Validation : Loss : 0.0842, Accuracy: 97.5530%, Time: 31.2760s
+Epoch : 025, Training: Loss: 0.0199, Accuracy: 99.3472%, Validation : Loss : 0.0676, Accuracy: 96.9005%, Time: 30.8085s
+Epoch : 026, Training: Loss: 0.0240, Accuracy: 99.2248%, Validation : Loss : 0.1624, Accuracy: 95.1060%, Time: 30.0999s
+Epoch : 027, Training: Loss: 0.0181, Accuracy: 99.3472%, Validation : Loss : 0.0938, Accuracy: 97.2268%, Time: 30.9805s
+Best model saved with test accuracy: 98.5318% at epoch 28
+Epoch : 028, Training: Loss: 0.0167, Accuracy: 99.4696%, Validation : Loss : 0.0710, Accuracy: 98.5318%, Time: 34.2425s
+Epoch : 029, Training: Loss: 0.0044, Accuracy: 99.9184%, Validation : Loss : 0.0500, Accuracy: 98.2055%, Time: 30.6625s
+flag1
+Last epoch :  29
+Training Finished for   ViTForImageClassification
+len(train_acc_list)  29
+len(valid_acc_list)  29
+== On test data ==
+Test Accuracy: 98.5318%
+Precision: 0.9807
+Recall: 0.9858
+F1 Score: 0.9832
+Confusion Matrix:
+[[136   0   3]
+ [  6 280   0]
+ [  0   0 188]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9577    0.9784    0.9680       139
+           1     1.0000    0.9790    0.9894       286
+           2     0.9843    1.0000    0.9921       188
+
+    accuracy                         0.9853       613
+   macro avg     0.9807    0.9858    0.9832       613
+weighted avg     0.9856    0.9853    0.9854       613
+
+Class 0: Accuracy = 97.8417%
+Class 1: Accuracy = 97.9021%
+Class 2: Accuracy = 100.0000%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  ViTForImageClassification
+
+
+Training started with  ConvNextV2ForImageClassification
+== ConvNextV2ForImageClassification ==
+Best model saved with test accuracy: 94.4535% at epoch 1
+Epoch : 001, Training: Loss: 0.3950, Accuracy: 83.4761%, Validation : Loss : 0.1698, Accuracy: 94.4535%, Time: 19.8510s
+Best model saved with test accuracy: 95.9217% at epoch 2
+Epoch : 002, Training: Loss: 0.1323, Accuracy: 95.5936%, Validation : Loss : 0.1088, Accuracy: 95.9217%, Time: 19.8870s
+Best model saved with test accuracy: 97.3899% at epoch 3
+Epoch : 003, Training: Loss: 0.0697, Accuracy: 97.5520%, Validation : Loss : 0.0690, Accuracy: 97.3899%, Time: 20.0965s
+Best model saved with test accuracy: 97.5530% at epoch 4
+Epoch : 004, Training: Loss: 0.0276, Accuracy: 99.2656%, Validation : Loss : 0.0632, Accuracy: 97.5530%, Time: 19.9674s
+Best model saved with test accuracy: 97.7162% at epoch 5
+Epoch : 005, Training: Loss: 0.0428, Accuracy: 98.6944%, Validation : Loss : 0.0520, Accuracy: 97.7162%, Time: 19.8414s
+Best model saved with test accuracy: 97.8793% at epoch 6
+Epoch : 006, Training: Loss: 0.0334, Accuracy: 99.1024%, Validation : Loss : 0.0679, Accuracy: 97.8793%, Time: 19.9803s
+Epoch : 007, Training: Loss: 0.0385, Accuracy: 98.6536%, Validation : Loss : 0.0867, Accuracy: 96.7374%, Time: 19.4916s
+Best model saved with test accuracy: 97.8793% at epoch 8
+Epoch : 008, Training: Loss: 0.0272, Accuracy: 98.9392%, Validation : Loss : 0.0693, Accuracy: 97.8793%, Time: 20.4132s
+Epoch : 009, Training: Loss: 0.0171, Accuracy: 99.3472%, Validation : Loss : 0.0762, Accuracy: 97.5530%, Time: 19.1467s
+Best model saved with test accuracy: 98.3687% at epoch 10
+Epoch : 010, Training: Loss: 0.0159, Accuracy: 99.5104%, Validation : Loss : 0.0544, Accuracy: 98.3687%, Time: 20.1024s
+Epoch : 011, Training: Loss: 0.0221, Accuracy: 99.1024%, Validation : Loss : 0.0642, Accuracy: 98.2055%, Time: 19.2035s
+Best model saved with test accuracy: 98.6949% at epoch 12
+Epoch : 012, Training: Loss: 0.0063, Accuracy: 99.8368%, Validation : Loss : 0.0414, Accuracy: 98.6949%, Time: 20.2380s
+Epoch : 013, Training: Loss: 0.0297, Accuracy: 98.8576%, Validation : Loss : 0.1153, Accuracy: 97.2268%, Time: 19.6186s
+Epoch : 014, Training: Loss: 0.0233, Accuracy: 99.1024%, Validation : Loss : 0.0938, Accuracy: 97.2268%, Time: 19.3552s
+Epoch : 015, Training: Loss: 0.0197, Accuracy: 99.4288%, Validation : Loss : 0.0550, Accuracy: 97.8793%, Time: 19.2823s
+Epoch : 016, Training: Loss: 0.0159, Accuracy: 99.3880%, Validation : Loss : 0.0674, Accuracy: 97.7162%, Time: 19.3860s
+Epoch : 017, Training: Loss: 0.0104, Accuracy: 99.6736%, Validation : Loss : 0.0547, Accuracy: 98.5318%, Time: 19.2793s
+Epoch : 018, Training: Loss: 0.0053, Accuracy: 99.8368%, Validation : Loss : 0.0588, Accuracy: 98.5318%, Time: 19.3385s
+Epoch : 019, Training: Loss: 0.0018, Accuracy: 99.9592%, Validation : Loss : 0.0480, Accuracy: 98.5318%, Time: 19.3280s
+Epoch : 020, Training: Loss: 0.0007, Accuracy: 100.0000%, Validation : Loss : 0.0885, Accuracy: 97.7162%, Time: 19.2883s
+Best model saved with test accuracy: 98.8581% at epoch 21
+Epoch : 021, Training: Loss: 0.0005, Accuracy: 100.0000%, Validation : Loss : 0.0462, Accuracy: 98.8581%, Time: 19.9394s
+Epoch : 022, Training: Loss: 0.0002, Accuracy: 100.0000%, Validation : Loss : 0.0463, Accuracy: 98.8581%, Time: 19.5517s
+Epoch : 023, Training: Loss: 0.0001, Accuracy: 100.0000%, Validation : Loss : 0.0468, Accuracy: 98.8581%, Time: 19.3107s
+Epoch : 024, Training: Loss: 0.0002, Accuracy: 100.0000%, Validation : Loss : 0.0535, Accuracy: 98.8581%, Time: 19.3688s
+Epoch : 025, Training: Loss: 0.0002, Accuracy: 100.0000%, Validation : Loss : 0.0520, Accuracy: 98.8581%, Time: 19.4094s
+Epoch : 026, Training: Loss: 0.0001, Accuracy: 100.0000%, Validation : Loss : 0.0523, Accuracy: 98.8581%, Time: 19.2943s
+Best model saved with test accuracy: 98.8581% at epoch 27
+Epoch : 027, Training: Loss: 0.0001, Accuracy: 100.0000%, Validation : Loss : 0.0516, Accuracy: 98.8581%, Time: 20.1499s
+Epoch : 028, Training: Loss: 0.0001, Accuracy: 100.0000%, Validation : Loss : 0.0496, Accuracy: 98.8581%, Time: 19.2739s
+Epoch : 029, Training: Loss: 0.0001, Accuracy: 100.0000%, Validation : Loss : 0.0501, Accuracy: 98.8581%, Time: 19.6202s
+flag1
+Last epoch :  29
+Training Finished for   ConvNextV2ForImageClassification
+len(train_acc_list)  29
+len(valid_acc_list)  29
+== On test data ==
+Test Accuracy: 98.8581%
+Precision: 0.9870
+Recall: 0.9888
+F1 Score: 0.9879
+Confusion Matrix:
+[[137   2   0]
+ [  4 282   0]
+ [  0   1 187]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9716    0.9856    0.9786       139
+           1     0.9895    0.9860    0.9877       286
+           2     1.0000    0.9947    0.9973       188
+
+    accuracy                         0.9886       613
+   macro avg     0.9870    0.9888    0.9879       613
+weighted avg     0.9887    0.9886    0.9886       613
+
+Class 0: Accuracy = 98.5612%
+Class 1: Accuracy = 98.6014%
+Class 2: Accuracy = 99.4681%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  ConvNextV2ForImageClassification
+
+
+Training started with  CvtForImageClassification
+== CvtForImageClassification ==
+Best model saved with test accuracy: 87.1126% at epoch 1
+Epoch : 001, Training: Loss: 0.5520, Accuracy: 75.0306%, Validation : Loss : 0.3015, Accuracy: 87.1126%, Time: 19.2912s
+Best model saved with test accuracy: 92.1697% at epoch 2
+Epoch : 002, Training: Loss: 0.4216, Accuracy: 79.5186%, Validation : Loss : 0.1981, Accuracy: 92.1697%, Time: 19.3384s
+Epoch : 003, Training: Loss: 0.3423, Accuracy: 84.2105%, Validation : Loss : 0.2095, Accuracy: 92.0065%, Time: 16.3556s
+Best model saved with test accuracy: 96.0848% at epoch 4
+Epoch : 004, Training: Loss: 0.3198, Accuracy: 83.6801%, Validation : Loss : 0.1135, Accuracy: 96.0848%, Time: 19.7700s
+Best model saved with test accuracy: 97.5530% at epoch 5
+Epoch : 005, Training: Loss: 0.2690, Accuracy: 87.2705%, Validation : Loss : 0.0652, Accuracy: 97.5530%, Time: 19.8986s
+Best model saved with test accuracy: 98.2055% at epoch 6
+Epoch : 006, Training: Loss: 0.2793, Accuracy: 86.4953%, Validation : Loss : 0.0613, Accuracy: 98.2055%, Time: 19.9865s
+Best model saved with test accuracy: 98.3687% at epoch 7
+Epoch : 007, Training: Loss: 0.2800, Accuracy: 86.6177%, Validation : Loss : 0.0474, Accuracy: 98.3687%, Time: 19.3715s
+Epoch : 008, Training: Loss: 0.2534, Accuracy: 87.5969%, Validation : Loss : 0.0625, Accuracy: 97.7162%, Time: 18.5377s
+Epoch : 009, Training: Loss: 0.2489, Accuracy: 87.4745%, Validation : Loss : 0.0674, Accuracy: 97.5530%, Time: 20.9217s
+Best model saved with test accuracy: 98.6949% at epoch 10
+Epoch : 010, Training: Loss: 0.2526, Accuracy: 87.4745%, Validation : Loss : 0.0518, Accuracy: 98.6949%, Time: 19.8015s
+Epoch : 011, Training: Loss: 0.2491, Accuracy: 88.2089%, Validation : Loss : 0.0704, Accuracy: 97.8793%, Time: 18.1872s
+Epoch : 012, Training: Loss: 0.2417, Accuracy: 88.2089%, Validation : Loss : 0.0641, Accuracy: 97.3899%, Time: 18.7318s
+Epoch : 013, Training: Loss: 0.2343, Accuracy: 88.7801%, Validation : Loss : 0.0567, Accuracy: 97.7162%, Time: 18.9279s
+Epoch : 014, Training: Loss: 0.2520, Accuracy: 87.4337%, Validation : Loss : 0.0998, Accuracy: 96.9005%, Time: 19.6436s
+Epoch : 015, Training: Loss: 0.2439, Accuracy: 87.6377%, Validation : Loss : 0.0373, Accuracy: 98.5318%, Time: 18.6811s
+Best model saved with test accuracy: 99.0212% at epoch 16
+Epoch : 016, Training: Loss: 0.2386, Accuracy: 88.4945%, Validation : Loss : 0.0502, Accuracy: 99.0212%, Time: 19.2701s
+Epoch : 017, Training: Loss: 0.2116, Accuracy: 89.5145%, Validation : Loss : 0.0455, Accuracy: 98.6949%, Time: 19.0222s
+Epoch : 018, Training: Loss: 0.2255, Accuracy: 88.4945%, Validation : Loss : 0.0654, Accuracy: 98.2055%, Time: 18.6762s
+Best model saved with test accuracy: 99.1843% at epoch 19
+Epoch : 019, Training: Loss: 0.2336, Accuracy: 88.1681%, Validation : Loss : 0.0339, Accuracy: 99.1843%, Time: 20.1474s
+Epoch : 020, Training: Loss: 0.2307, Accuracy: 88.4945%, Validation : Loss : 0.0617, Accuracy: 98.2055%, Time: 20.7083s
+Epoch : 021, Training: Loss: 0.2400, Accuracy: 88.0049%, Validation : Loss : 0.0584, Accuracy: 98.3687%, Time: 18.7771s
+Epoch : 022, Training: Loss: 0.2487, Accuracy: 87.8009%, Validation : Loss : 0.0657, Accuracy: 97.7162%, Time: 19.0031s
+Epoch : 023, Training: Loss: 0.2155, Accuracy: 89.2697%, Validation : Loss : 0.1334, Accuracy: 96.4111%, Time: 16.8365s
+Epoch : 024, Training: Loss: 0.2242, Accuracy: 88.9433%, Validation : Loss : 0.0622, Accuracy: 98.0424%, Time: 16.6374s
+Epoch : 025, Training: Loss: 0.2332, Accuracy: 88.0865%, Validation : Loss : 0.0435, Accuracy: 98.5318%, Time: 17.1104s
+Epoch : 026, Training: Loss: 0.2171, Accuracy: 88.8209%, Validation : Loss : 0.0535, Accuracy: 98.3687%, Time: 16.7600s
+Epoch : 027, Training: Loss: 0.2187, Accuracy: 89.3105%, Validation : Loss : 0.1401, Accuracy: 95.5954%, Time: 16.6895s
+Epoch : 028, Training: Loss: 0.2143, Accuracy: 89.3105%, Validation : Loss : 0.0561, Accuracy: 98.3687%, Time: 16.8425s
+Epoch : 029, Training: Loss: 0.2193, Accuracy: 88.9025%, Validation : Loss : 0.0669, Accuracy: 98.5318%, Time: 16.6689s
+flag1
+Last epoch :  29
+Training Finished for   CvtForImageClassification
+len(train_acc_list)  29
+len(valid_acc_list)  29
+== On test data ==
+Test Accuracy: 99.1843%
+Precision: 0.9894
+Recall: 0.9923
+F1 Score: 0.9908
+Confusion Matrix:
+[[138   1   0]
+ [  3 283   0]
+ [  1   0 187]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9718    0.9928    0.9822       139
+           1     0.9965    0.9895    0.9930       286
+           2     1.0000    0.9947    0.9973       188
+
+    accuracy                         0.9918       613
+   macro avg     0.9894    0.9923    0.9908       613
+weighted avg     0.9920    0.9918    0.9919       613
+
+Class 0: Accuracy = 99.2806%
+Class 1: Accuracy = 98.9510%
+Class 2: Accuracy = 99.4681%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  CvtForImageClassification
+
+
+Training started with  EfficientFormerForImageClassification
+== EfficientFormerForImageClassification ==
+Best model saved with test accuracy: 88.5808% at epoch 1
+Epoch : 001, Training: Loss: 0.4995, Accuracy: 79.5594%, Validation : Loss : 0.2599, Accuracy: 88.5808%, Time: 9.0137s
+Best model saved with test accuracy: 94.4535% at epoch 2
+Epoch : 002, Training: Loss: 0.1838, Accuracy: 92.7377%, Validation : Loss : 0.1339, Accuracy: 94.4535%, Time: 8.9924s
+Best model saved with test accuracy: 96.7374% at epoch 3
+Epoch : 003, Training: Loss: 0.1043, Accuracy: 96.2872%, Validation : Loss : 0.0906, Accuracy: 96.7374%, Time: 9.2571s
+Best model saved with test accuracy: 97.0636% at epoch 4
+Epoch : 004, Training: Loss: 0.0679, Accuracy: 97.5112%, Validation : Loss : 0.0727, Accuracy: 97.0636%, Time: 8.6147s
+Epoch : 005, Training: Loss: 0.0460, Accuracy: 98.2456%, Validation : Loss : 0.1087, Accuracy: 95.9217%, Time: 8.5845s
+Best model saved with test accuracy: 98.0424% at epoch 6
+Epoch : 006, Training: Loss: 0.0346, Accuracy: 98.7760%, Validation : Loss : 0.0563, Accuracy: 98.0424%, Time: 8.7100s
+Epoch : 007, Training: Loss: 0.0251, Accuracy: 99.0616%, Validation : Loss : 0.0508, Accuracy: 97.8793%, Time: 8.7614s
+Best model saved with test accuracy: 98.8581% at epoch 8
+Epoch : 008, Training: Loss: 0.0141, Accuracy: 99.5512%, Validation : Loss : 0.0350, Accuracy: 98.8581%, Time: 8.9852s
+Epoch : 009, Training: Loss: 0.0113, Accuracy: 99.6328%, Validation : Loss : 0.0319, Accuracy: 98.6949%, Time: 8.5213s
+Epoch : 010, Training: Loss: 0.0117, Accuracy: 99.7144%, Validation : Loss : 0.0403, Accuracy: 98.5318%, Time: 8.3956s
+Epoch : 011, Training: Loss: 0.0164, Accuracy: 99.5104%, Validation : Loss : 0.0479, Accuracy: 98.2055%, Time: 8.6870s
+Epoch : 012, Training: Loss: 0.0193, Accuracy: 99.3064%, Validation : Loss : 0.0379, Accuracy: 98.6949%, Time: 8.5342s
+Best model saved with test accuracy: 99.0212% at epoch 13
+Epoch : 013, Training: Loss: 0.0113, Accuracy: 99.5512%, Validation : Loss : 0.0338, Accuracy: 99.0212%, Time: 8.6253s
+Epoch : 014, Training: Loss: 0.0069, Accuracy: 99.8776%, Validation : Loss : 0.0532, Accuracy: 98.6949%, Time: 8.5360s
+Best model saved with test accuracy: 99.3475% at epoch 15
+Epoch : 015, Training: Loss: 0.0107, Accuracy: 99.5512%, Validation : Loss : 0.0363, Accuracy: 99.3475%, Time: 8.6754s
+Epoch : 016, Training: Loss: 0.0091, Accuracy: 99.7144%, Validation : Loss : 0.0246, Accuracy: 99.0212%, Time: 8.5969s
+Epoch : 017, Training: Loss: 0.0059, Accuracy: 99.8368%, Validation : Loss : 0.0386, Accuracy: 98.6949%, Time: 8.4663s
+Epoch : 018, Training: Loss: 0.0047, Accuracy: 99.8368%, Validation : Loss : 0.0508, Accuracy: 98.6949%, Time: 8.9045s
+Epoch : 019, Training: Loss: 0.0092, Accuracy: 99.7552%, Validation : Loss : 0.0744, Accuracy: 97.8793%, Time: 8.5318s
+Epoch : 020, Training: Loss: 0.0078, Accuracy: 99.7144%, Validation : Loss : 0.0571, Accuracy: 97.7162%, Time: 8.4621s
+Epoch : 021, Training: Loss: 0.0114, Accuracy: 99.5104%, Validation : Loss : 0.0691, Accuracy: 98.0424%, Time: 8.5624s
+Epoch : 022, Training: Loss: 0.0075, Accuracy: 99.9184%, Validation : Loss : 0.0364, Accuracy: 98.8581%, Time: 8.4508s
+Best model saved with test accuracy: 99.6737% at epoch 23
+Epoch : 023, Training: Loss: 0.0040, Accuracy: 99.8776%, Validation : Loss : 0.0195, Accuracy: 99.6737%, Time: 8.8105s
+Epoch : 024, Training: Loss: 0.0017, Accuracy: 99.9592%, Validation : Loss : 0.0329, Accuracy: 98.6949%, Time: 8.5675s
+Epoch : 025, Training: Loss: 0.0011, Accuracy: 100.0000%, Validation : Loss : 0.0611, Accuracy: 98.2055%, Time: 8.7722s
+Epoch : 026, Training: Loss: 0.0008, Accuracy: 100.0000%, Validation : Loss : 0.0503, Accuracy: 98.6949%, Time: 8.5997s
+Epoch : 027, Training: Loss: 0.0003, Accuracy: 100.0000%, Validation : Loss : 0.0455, Accuracy: 98.8581%, Time: 8.6181s
+Epoch : 028, Training: Loss: 0.0041, Accuracy: 99.9184%, Validation : Loss : 0.0447, Accuracy: 98.6949%, Time: 8.8963s
+Epoch : 029, Training: Loss: 0.0095, Accuracy: 99.7552%, Validation : Loss : 0.0463, Accuracy: 99.0212%, Time: 8.6460s
+flag1
+Last epoch :  29
+Training Finished for   EfficientFormerForImageClassification
+len(train_acc_list)  29
+len(valid_acc_list)  29
+== On test data ==
+Test Accuracy: 99.6737%
+Precision: 0.9964
+Recall: 0.9964
+F1 Score: 0.9964
+Confusion Matrix:
+[[138   1   0]
+ [  1 285   0]
+ [  0   0 188]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9928    0.9928    0.9928       139
+           1     0.9965    0.9965    0.9965       286
+           2     1.0000    1.0000    1.0000       188
+
+    accuracy                         0.9967       613
+   macro avg     0.9964    0.9964    0.9964       613
+weighted avg     0.9967    0.9967    0.9967       613
+
+Class 0: Accuracy = 99.2806%
+Class 1: Accuracy = 99.6503%
+Class 2: Accuracy = 100.0000%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  EfficientFormerForImageClassification
+
+
+Training started with  PvtV2ForImageClassification
+== PvtV2ForImageClassification ==
+Best model saved with test accuracy: 93.6378% at epoch 1
+Epoch : 001, Training: Loss: 0.3838, Accuracy: 83.9249%, Validation : Loss : 0.1729, Accuracy: 93.6378%, Time: 11.4529s
+Best model saved with test accuracy: 97.2268% at epoch 2
+Epoch : 002, Training: Loss: 0.1599, Accuracy: 93.8800%, Validation : Loss : 0.1099, Accuracy: 97.2268%, Time: 11.5601s
+Epoch : 003, Training: Loss: 0.0910, Accuracy: 96.4504%, Validation : Loss : 0.0929, Accuracy: 95.9217%, Time: 11.2593s
+Epoch : 004, Training: Loss: 0.0646, Accuracy: 97.5112%, Validation : Loss : 0.1181, Accuracy: 96.2480%, Time: 11.1687s
+Best model saved with test accuracy: 98.5318% at epoch 5
+Epoch : 005, Training: Loss: 0.0530, Accuracy: 97.8784%, Validation : Loss : 0.0524, Accuracy: 98.5318%, Time: 11.3991s
+Epoch : 006, Training: Loss: 0.0308, Accuracy: 99.0616%, Validation : Loss : 0.0434, Accuracy: 98.5318%, Time: 11.1032s
+Epoch : 007, Training: Loss: 0.0353, Accuracy: 98.5312%, Validation : Loss : 0.0685, Accuracy: 97.2268%, Time: 11.0689s
+Epoch : 008, Training: Loss: 0.0285, Accuracy: 99.1024%, Validation : Loss : 0.0515, Accuracy: 98.2055%, Time: 11.0639s
+Epoch : 009, Training: Loss: 0.0256, Accuracy: 98.9392%, Validation : Loss : 0.0506, Accuracy: 98.2055%, Time: 11.4023s
+Best model saved with test accuracy: 98.8581% at epoch 10
+Epoch : 010, Training: Loss: 0.0133, Accuracy: 99.6736%, Validation : Loss : 0.0461, Accuracy: 98.8581%, Time: 11.2090s
+Epoch : 011, Training: Loss: 0.0486, Accuracy: 98.5312%, Validation : Loss : 0.0561, Accuracy: 98.5318%, Time: 11.0549s
+Best model saved with test accuracy: 99.0212% at epoch 12
+Epoch : 012, Training: Loss: 0.0155, Accuracy: 99.5512%, Validation : Loss : 0.0357, Accuracy: 99.0212%, Time: 11.4434s
+Best model saved with test accuracy: 99.1843% at epoch 13
+Epoch : 013, Training: Loss: 0.0046, Accuracy: 99.9184%, Validation : Loss : 0.0393, Accuracy: 99.1843%, Time: 11.0091s
+Epoch : 014, Training: Loss: 0.0110, Accuracy: 99.6328%, Validation : Loss : 0.2759, Accuracy: 92.3328%, Time: 11.1350s
+Epoch : 015, Training: Loss: 0.0240, Accuracy: 99.1024%, Validation : Loss : 0.0380, Accuracy: 98.8581%, Time: 11.0148s
+Best model saved with test accuracy: 99.5106% at epoch 16
+Epoch : 016, Training: Loss: 0.0090, Accuracy: 99.7552%, Validation : Loss : 0.0261, Accuracy: 99.5106%, Time: 11.2161s
+Epoch : 017, Training: Loss: 0.0153, Accuracy: 99.3880%, Validation : Loss : 0.1210, Accuracy: 96.9005%, Time: 10.9893s
+Epoch : 018, Training: Loss: 0.0180, Accuracy: 99.6328%, Validation : Loss : 0.1059, Accuracy: 96.5742%, Time: 11.3623s
+Epoch : 019, Training: Loss: 0.0205, Accuracy: 99.3064%, Validation : Loss : 0.0826, Accuracy: 97.8793%, Time: 11.3742s
+Epoch : 020, Training: Loss: 0.0104, Accuracy: 99.6736%, Validation : Loss : 0.0787, Accuracy: 97.7162%, Time: 11.1549s
+Epoch : 021, Training: Loss: 0.0093, Accuracy: 99.6736%, Validation : Loss : 0.0442, Accuracy: 98.8581%, Time: 11.2686s
+Epoch : 022, Training: Loss: 0.0081, Accuracy: 99.7144%, Validation : Loss : 0.0666, Accuracy: 97.8793%, Time: 11.0017s
+Epoch : 023, Training: Loss: 0.0140, Accuracy: 99.4288%, Validation : Loss : 0.1116, Accuracy: 97.0636%, Time: 11.2556s
+Epoch : 024, Training: Loss: 0.0257, Accuracy: 99.2656%, Validation : Loss : 0.0838, Accuracy: 97.0636%, Time: 11.2697s
+Epoch : 025, Training: Loss: 0.0047, Accuracy: 99.7960%, Validation : Loss : 0.0388, Accuracy: 99.1843%, Time: 11.0007s
+Epoch : 026, Training: Loss: 0.0196, Accuracy: 99.4288%, Validation : Loss : 0.0646, Accuracy: 97.8793%, Time: 11.3684s
+Epoch : 027, Training: Loss: 0.0229, Accuracy: 99.2656%, Validation : Loss : 0.0447, Accuracy: 98.6949%, Time: 11.1640s
+Epoch : 028, Training: Loss: 0.0040, Accuracy: 99.9184%, Validation : Loss : 0.0351, Accuracy: 99.1843%, Time: 10.9324s
+Epoch : 029, Training: Loss: 0.0033, Accuracy: 99.8776%, Validation : Loss : 0.0284, Accuracy: 99.5106%, Time: 11.3197s
+flag1
+Last epoch :  29
+Training Finished for   PvtV2ForImageClassification
+len(train_acc_list)  29
+len(valid_acc_list)  29
+== On test data ==
+Test Accuracy: 99.5106%
+Precision: 0.9930
+Recall: 0.9965
+F1 Score: 0.9947
+Confusion Matrix:
+[[139   0   0]
+ [  3 283   0]
+ [  0   0 188]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9789    1.0000    0.9893       139
+           1     1.0000    0.9895    0.9947       286
+           2     1.0000    1.0000    1.0000       188
+
+    accuracy                         0.9951       613
+   macro avg     0.9930    0.9965    0.9947       613
+weighted avg     0.9952    0.9951    0.9951       613
+
+Class 0: Accuracy = 100.0000%
+Class 1: Accuracy = 98.9510%
+Class 2: Accuracy = 100.0000%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  PvtV2ForImageClassification
+
+
+Training started with  MobileViTV2ForImageClassification
+== MobileViTV2ForImageClassification ==
+Best model saved with test accuracy: 88.9070% at epoch 1
+Epoch : 001, Training: Loss: 0.7111, Accuracy: 76.7034%, Validation : Loss : 0.3491, Accuracy: 88.9070%, Time: 10.4882s
+Best model saved with test accuracy: 93.3116% at epoch 2
+Epoch : 002, Training: Loss: 0.2797, Accuracy: 90.6161%, Validation : Loss : 0.1866, Accuracy: 93.3116%, Time: 10.1544s
+Best model saved with test accuracy: 94.7798% at epoch 3
+Epoch : 003, Training: Loss: 0.1737, Accuracy: 94.2472%, Validation : Loss : 0.1526, Accuracy: 94.7798%, Time: 10.1035s
+Epoch : 004, Training: Loss: 0.1487, Accuracy: 94.5736%, Validation : Loss : 0.1491, Accuracy: 94.6166%, Time: 9.9478s
+Best model saved with test accuracy: 95.7586% at epoch 5
+Epoch : 005, Training: Loss: 0.1091, Accuracy: 96.1648%, Validation : Loss : 0.1323, Accuracy: 95.7586%, Time: 9.9143s
+Best model saved with test accuracy: 96.0848% at epoch 6
+Epoch : 006, Training: Loss: 0.0868, Accuracy: 97.1032%, Validation : Loss : 0.0996, Accuracy: 96.0848%, Time: 10.1413s
+Best model saved with test accuracy: 96.9005% at epoch 7
+Epoch : 007, Training: Loss: 0.0715, Accuracy: 97.6744%, Validation : Loss : 0.0904, Accuracy: 96.9005%, Time: 10.0570s
+Epoch : 008, Training: Loss: 0.0755, Accuracy: 97.2256%, Validation : Loss : 0.0884, Accuracy: 96.9005%, Time: 9.8128s
+Epoch : 009, Training: Loss: 0.0553, Accuracy: 98.1232%, Validation : Loss : 0.0859, Accuracy: 96.9005%, Time: 9.9439s
+Best model saved with test accuracy: 97.7162% at epoch 10
+Epoch : 010, Training: Loss: 0.0476, Accuracy: 98.5720%, Validation : Loss : 0.0692, Accuracy: 97.7162%, Time: 10.1310s
+Epoch : 011, Training: Loss: 0.0420, Accuracy: 98.6536%, Validation : Loss : 0.0796, Accuracy: 97.2268%, Time: 10.0323s
+Epoch : 012, Training: Loss: 0.0332, Accuracy: 99.0208%, Validation : Loss : 0.0751, Accuracy: 97.7162%, Time: 9.8079s
+Epoch : 013, Training: Loss: 0.0238, Accuracy: 99.2248%, Validation : Loss : 0.0920, Accuracy: 97.0636%, Time: 9.9476s
+Epoch : 014, Training: Loss: 0.0329, Accuracy: 98.8576%, Validation : Loss : 0.0868, Accuracy: 97.2268%, Time: 9.9181s
+Epoch : 015, Training: Loss: 0.0227, Accuracy: 99.2656%, Validation : Loss : 0.0948, Accuracy: 97.3899%, Time: 9.9545s
+Best model saved with test accuracy: 98.2055% at epoch 16
+Epoch : 016, Training: Loss: 0.0214, Accuracy: 99.3064%, Validation : Loss : 0.0589, Accuracy: 98.2055%, Time: 10.2412s
+Epoch : 017, Training: Loss: 0.0175, Accuracy: 99.5104%, Validation : Loss : 0.0689, Accuracy: 97.7162%, Time: 9.9182s
+Epoch : 018, Training: Loss: 0.0129, Accuracy: 99.7144%, Validation : Loss : 0.0704, Accuracy: 97.2268%, Time: 10.3654s
+Epoch : 019, Training: Loss: 0.0215, Accuracy: 99.4288%, Validation : Loss : 0.0828, Accuracy: 97.7162%, Time: 9.9794s
+Epoch : 020, Training: Loss: 0.0158, Accuracy: 99.5920%, Validation : Loss : 0.0971, Accuracy: 96.7374%, Time: 10.0240s
+Epoch : 021, Training: Loss: 0.0164, Accuracy: 99.5104%, Validation : Loss : 0.0940, Accuracy: 97.3899%, Time: 10.1569s
+Epoch : 022, Training: Loss: 0.0126, Accuracy: 99.6736%, Validation : Loss : 0.0682, Accuracy: 97.5530%, Time: 10.0994s
+Epoch : 023, Training: Loss: 0.0110, Accuracy: 99.7960%, Validation : Loss : 0.0764, Accuracy: 97.7162%, Time: 9.7952s
+Epoch : 024, Training: Loss: 0.0129, Accuracy: 99.5920%, Validation : Loss : 0.0798, Accuracy: 98.0424%, Time: 10.0795s
+Epoch : 025, Training: Loss: 0.0196, Accuracy: 99.2656%, Validation : Loss : 0.0806, Accuracy: 97.7162%, Time: 10.1200s
+Epoch : 026, Training: Loss: 0.0120, Accuracy: 99.6328%, Validation : Loss : 0.0936, Accuracy: 97.5530%, Time: 10.1426s
+Epoch : 027, Training: Loss: 0.0087, Accuracy: 99.7960%, Validation : Loss : 0.0871, Accuracy: 97.5530%, Time: 10.0050s
+Epoch : 028, Training: Loss: 0.0145, Accuracy: 99.6328%, Validation : Loss : 0.0954, Accuracy: 97.0636%, Time: 9.9518s
+Epoch : 029, Training: Loss: 0.0071, Accuracy: 99.7552%, Validation : Loss : 0.0646, Accuracy: 97.8793%, Time: 10.0755s
+flag1
+Last epoch :  29
+Training Finished for   MobileViTV2ForImageClassification
+len(train_acc_list)  29
+len(valid_acc_list)  29
+== On test data ==
+Test Accuracy: 98.2055%
+Precision: 0.9800
+Recall: 0.9816
+F1 Score: 0.9808
+Confusion Matrix:
+[[135   4   0]
+ [  6 280   0]
+ [  0   1 187]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9574    0.9712    0.9643       139
+           1     0.9825    0.9790    0.9807       286
+           2     1.0000    0.9947    0.9973       188
+
+    accuracy                         0.9821       613
+   macro avg     0.9800    0.9816    0.9808       613
+weighted avg     0.9822    0.9821    0.9821       613
+
+Class 0: Accuracy = 97.1223%
+Class 1: Accuracy = 97.9021%
+Class 2: Accuracy = 99.4681%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  MobileViTV2ForImageClassification
+
+
+Training started with  resnet50ForImageClassification
+== resnet50ForImageClassification ==
+Best model saved with test accuracy: 93.4747% at epoch 1
+Epoch : 001, Training: Loss: 0.2952, Accuracy: 88.1681%, Validation : Loss : 0.1968, Accuracy: 93.4747%, Time: 11.6753s
+Best model saved with test accuracy: 94.1272% at epoch 2
+Epoch : 002, Training: Loss: 0.1370, Accuracy: 95.4304%, Validation : Loss : 0.1410, Accuracy: 94.1272%, Time: 11.7224s
+Best model saved with test accuracy: 94.4535% at epoch 3
+Epoch : 003, Training: Loss: 0.0963, Accuracy: 96.7360%, Validation : Loss : 0.1470, Accuracy: 94.4535%, Time: 11.5987s
+Best model saved with test accuracy: 98.0424% at epoch 4
+Epoch : 004, Training: Loss: 0.0742, Accuracy: 97.3480%, Validation : Loss : 0.0674, Accuracy: 98.0424%, Time: 11.6795s
+Epoch : 005, Training: Loss: 0.0479, Accuracy: 98.5720%, Validation : Loss : 0.0644, Accuracy: 98.0424%, Time: 11.0758s
+Epoch : 006, Training: Loss: 0.0433, Accuracy: 98.4496%, Validation : Loss : 0.0537, Accuracy: 97.7162%, Time: 11.2401s
+Epoch : 007, Training: Loss: 0.0349, Accuracy: 98.8576%, Validation : Loss : 0.1169, Accuracy: 95.9217%, Time: 10.9967s
+Epoch : 008, Training: Loss: 0.0461, Accuracy: 98.4088%, Validation : Loss : 0.1035, Accuracy: 97.5530%, Time: 11.2000s
+Epoch : 009, Training: Loss: 0.0244, Accuracy: 99.1024%, Validation : Loss : 0.0862, Accuracy: 97.5530%, Time: 11.2752s
+Best model saved with test accuracy: 98.2055% at epoch 10
+Epoch : 010, Training: Loss: 0.0422, Accuracy: 98.7760%, Validation : Loss : 0.0529, Accuracy: 98.2055%, Time: 11.7913s
+Best model saved with test accuracy: 98.6949% at epoch 11
+Epoch : 011, Training: Loss: 0.0325, Accuracy: 98.8984%, Validation : Loss : 0.0377, Accuracy: 98.6949%, Time: 11.7970s
+Epoch : 012, Training: Loss: 0.0134, Accuracy: 99.7552%, Validation : Loss : 0.0517, Accuracy: 98.6949%, Time: 11.2915s
+Epoch : 013, Training: Loss: 0.0109, Accuracy: 99.6328%, Validation : Loss : 0.0563, Accuracy: 98.5318%, Time: 11.2038s
+Best model saved with test accuracy: 98.6949% at epoch 14
+Epoch : 014, Training: Loss: 0.0302, Accuracy: 98.9392%, Validation : Loss : 0.0450, Accuracy: 98.6949%, Time: 11.8556s
+Best model saved with test accuracy: 99.0212% at epoch 15
+Epoch : 015, Training: Loss: 0.0188, Accuracy: 99.3472%, Validation : Loss : 0.0331, Accuracy: 99.0212%, Time: 11.6663s
+Epoch : 016, Training: Loss: 0.0243, Accuracy: 98.9800%, Validation : Loss : 0.0417, Accuracy: 98.6949%, Time: 11.2597s
+Epoch : 017, Training: Loss: 0.0169, Accuracy: 99.4288%, Validation : Loss : 0.0232, Accuracy: 98.8581%, Time: 11.2435s
+Epoch : 018, Training: Loss: 0.0136, Accuracy: 99.5104%, Validation : Loss : 0.0370, Accuracy: 99.0212%, Time: 11.1628s
+Epoch : 019, Training: Loss: 0.0135, Accuracy: 99.7144%, Validation : Loss : 0.0374, Accuracy: 98.6949%, Time: 11.1935s
+Epoch : 020, Training: Loss: 0.0104, Accuracy: 99.7144%, Validation : Loss : 0.0565, Accuracy: 97.8793%, Time: 11.2374s
+Epoch : 021, Training: Loss: 0.0165, Accuracy: 99.5104%, Validation : Loss : 0.0922, Accuracy: 97.7162%, Time: 11.2663s
+Best model saved with test accuracy: 99.1843% at epoch 22
+Epoch : 022, Training: Loss: 0.0182, Accuracy: 99.3880%, Validation : Loss : 0.0439, Accuracy: 99.1843%, Time: 11.9612s
+Epoch : 023, Training: Loss: 0.0249, Accuracy: 99.1024%, Validation : Loss : 0.0985, Accuracy: 97.0636%, Time: 11.3289s
+Epoch : 024, Training: Loss: 0.0198, Accuracy: 99.2248%, Validation : Loss : 0.0619, Accuracy: 98.3687%, Time: 11.3624s
+Epoch : 025, Training: Loss: 0.0114, Accuracy: 99.7144%, Validation : Loss : 0.0672, Accuracy: 97.8793%, Time: 11.3269s
+Epoch : 026, Training: Loss: 0.0138, Accuracy: 99.5920%, Validation : Loss : 0.0353, Accuracy: 98.6949%, Time: 11.3229s
+Epoch : 027, Training: Loss: 0.0231, Accuracy: 99.2656%, Validation : Loss : 0.1422, Accuracy: 96.7374%, Time: 11.3759s
+Epoch : 028, Training: Loss: 0.0146, Accuracy: 99.6328%, Validation : Loss : 0.0607, Accuracy: 98.2055%, Time: 11.2585s
+Epoch : 029, Training: Loss: 0.0100, Accuracy: 99.7144%, Validation : Loss : 0.0985, Accuracy: 97.7162%, Time: 11.2147s
+flag1
+Last epoch :  29
+Training Finished for   resnet50ForImageClassification
+len(train_acc_list)  29
+len(valid_acc_list)  29
+== On test data ==
+Test Accuracy: 99.1843%
+Precision: 0.9917
+Recall: 0.9911
+F1 Score: 0.9914
+Confusion Matrix:
+[[137   2   0]
+ [  2 284   0]
+ [  0   1 187]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9856    0.9856    0.9856       139
+           1     0.9895    0.9930    0.9913       286
+           2     1.0000    0.9947    0.9973       188
+
+    accuracy                         0.9918       613
+   macro avg     0.9917    0.9911    0.9914       613
+weighted avg     0.9919    0.9918    0.9918       613
+
+Class 0: Accuracy = 98.5612%
+Class 1: Accuracy = 99.3007%
+Class 2: Accuracy = 99.4681%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  resnet50ForImageClassification
+
+
+Training started with  vgg16ForImageClassification
+== vgg16ForImageClassification ==
+Best model saved with test accuracy: 89.0701% at epoch 1
+Epoch : 001, Training: Loss: 0.5045, Accuracy: 78.0906%, Validation : Loss : 0.2808, Accuracy: 89.0701%, Time: 19.1474s
+Best model saved with test accuracy: 94.2904% at epoch 2
+Epoch : 002, Training: Loss: 0.2164, Accuracy: 92.1665%, Validation : Loss : 0.1578, Accuracy: 94.2904%, Time: 19.2091s
+Best model saved with test accuracy: 96.9005% at epoch 3
+Epoch : 003, Training: Loss: 0.1585, Accuracy: 93.5129%, Validation : Loss : 0.0985, Accuracy: 96.9005%, Time: 19.4911s
+Epoch : 004, Training: Loss: 0.1469, Accuracy: 94.7776%, Validation : Loss : 0.0944, Accuracy: 96.4111%, Time: 15.2374s
+Best model saved with test accuracy: 97.2268% at epoch 5
+Epoch : 005, Training: Loss: 0.1121, Accuracy: 95.9608%, Validation : Loss : 0.0853, Accuracy: 97.2268%, Time: 19.0983s
+Epoch : 006, Training: Loss: 0.0697, Accuracy: 98.3272%, Validation : Loss : 0.2328, Accuracy: 95.1060%, Time: 15.1849s
+Epoch : 007, Training: Loss: 0.1340, Accuracy: 96.0424%, Validation : Loss : 0.1571, Accuracy: 94.7798%, Time: 15.1740s
+Epoch : 008, Training: Loss: 0.1080, Accuracy: 96.0424%, Validation : Loss : 0.1210, Accuracy: 96.4111%, Time: 15.1077s
+Epoch : 009, Training: Loss: 0.0565, Accuracy: 97.9600%, Validation : Loss : 0.0924, Accuracy: 96.9005%, Time: 15.1075s
+Epoch : 010, Training: Loss: 0.1006, Accuracy: 96.4096%, Validation : Loss : 0.0848, Accuracy: 96.9005%, Time: 15.2644s
+Epoch : 011, Training: Loss: 0.0593, Accuracy: 97.7968%, Validation : Loss : 0.0887, Accuracy: 96.7374%, Time: 15.2523s
+Best model saved with test accuracy: 97.8793% at epoch 12
+Epoch : 012, Training: Loss: 0.0354, Accuracy: 98.8984%, Validation : Loss : 0.0888, Accuracy: 97.8793%, Time: 18.9975s
+Best model saved with test accuracy: 98.0424% at epoch 13
+Epoch : 013, Training: Loss: 0.0429, Accuracy: 98.4088%, Validation : Loss : 0.0607, Accuracy: 98.0424%, Time: 19.1101s
+Epoch : 014, Training: Loss: 0.0379, Accuracy: 98.4496%, Validation : Loss : 0.0934, Accuracy: 97.8793%, Time: 15.1033s
+Best model saved with test accuracy: 98.2055% at epoch 15
+Epoch : 015, Training: Loss: 0.0244, Accuracy: 99.3472%, Validation : Loss : 0.0567, Accuracy: 98.2055%, Time: 19.0186s
+Best model saved with test accuracy: 98.3687% at epoch 16
+Epoch : 016, Training: Loss: 0.0553, Accuracy: 98.1232%, Validation : Loss : 0.0557, Accuracy: 98.3687%, Time: 19.4855s
+Epoch : 017, Training: Loss: 0.0291, Accuracy: 99.2248%, Validation : Loss : 0.1023, Accuracy: 96.7374%, Time: 15.2898s
+Epoch : 018, Training: Loss: 0.0173, Accuracy: 99.5104%, Validation : Loss : 0.1262, Accuracy: 97.3899%, Time: 15.3619s
+Epoch : 019, Training: Loss: 0.0284, Accuracy: 99.1432%, Validation : Loss : 0.1147, Accuracy: 97.0636%, Time: 15.3781s
+Epoch : 020, Training: Loss: 0.0599, Accuracy: 98.0416%, Validation : Loss : 0.1002, Accuracy: 96.7374%, Time: 15.3746s
+Epoch : 021, Training: Loss: 0.0386, Accuracy: 98.7352%, Validation : Loss : 0.0636, Accuracy: 97.7162%, Time: 15.2657s
+Epoch : 022, Training: Loss: 0.0245, Accuracy: 99.1024%, Validation : Loss : 0.1616, Accuracy: 95.2692%, Time: 15.2173s
+Epoch : 023, Training: Loss: 0.0105, Accuracy: 99.5512%, Validation : Loss : 0.0988, Accuracy: 97.3899%, Time: 15.2794s
+Epoch : 024, Training: Loss: 0.0432, Accuracy: 98.8576%, Validation : Loss : 0.1555, Accuracy: 96.0848%, Time: 15.1996s
+Epoch : 025, Training: Loss: 0.0219, Accuracy: 99.2656%, Validation : Loss : 0.1275, Accuracy: 97.7162%, Time: 15.1148s
+Epoch : 026, Training: Loss: 0.0329, Accuracy: 98.4904%, Validation : Loss : 0.1567, Accuracy: 95.9217%, Time: 15.1543s
+Epoch : 027, Training: Loss: 0.0170, Accuracy: 99.3880%, Validation : Loss : 0.0773, Accuracy: 98.2055%, Time: 15.2729s
+Epoch : 028, Training: Loss: 0.0200, Accuracy: 99.2248%, Validation : Loss : 0.0879, Accuracy: 97.7162%, Time: 15.2030s
+Best model saved with test accuracy: 98.5318% at epoch 29
+Epoch : 029, Training: Loss: 0.0135, Accuracy: 99.5512%, Validation : Loss : 0.0710, Accuracy: 98.5318%, Time: 19.2757s
+flag1
+Last epoch :  29
+Training Finished for   vgg16ForImageClassification
+len(train_acc_list)  29
+len(valid_acc_list)  29
+== On test data ==
+Test Accuracy: 98.5318%
+Precision: 0.9824
+Recall: 0.9852
+F1 Score: 0.9838
+Confusion Matrix:
+[[136   3   0]
+ [  5 281   0]
+ [  1   0 187]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9577    0.9784    0.9680       139
+           1     0.9894    0.9825    0.9860       286
+           2     1.0000    0.9947    0.9973       188
+
+    accuracy                         0.9853       613
+   macro avg     0.9824    0.9852    0.9838       613
+weighted avg     0.9855    0.9853    0.9854       613
+
+Class 0: Accuracy = 97.8417%
+Class 1: Accuracy = 98.2517%
+Class 2: Accuracy = 99.4681%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  vgg16ForImageClassification
+
+
+Training started with  mobilenetForImageClassification
+== mobilenetForImageClassification ==
+Best model saved with test accuracy: 91.6803% at epoch 1
+Epoch : 001, Training: Loss: 0.3706, Accuracy: 85.3937%, Validation : Loss : 0.2147, Accuracy: 91.6803%, Time: 8.3545s
+Best model saved with test accuracy: 95.9217% at epoch 2
+Epoch : 002, Training: Loss: 0.1632, Accuracy: 94.1248%, Validation : Loss : 0.1096, Accuracy: 95.9217%, Time: 7.3316s
+Epoch : 003, Training: Loss: 0.1136, Accuracy: 95.7976%, Validation : Loss : 0.1231, Accuracy: 94.9429%, Time: 7.1994s
+Best model saved with test accuracy: 97.7162% at epoch 4
+Epoch : 004, Training: Loss: 0.0760, Accuracy: 97.2256%, Validation : Loss : 0.0620, Accuracy: 97.7162%, Time: 7.5304s
+Best model saved with test accuracy: 98.2055% at epoch 5
+Epoch : 005, Training: Loss: 0.0628, Accuracy: 97.7560%, Validation : Loss : 0.0561, Accuracy: 98.2055%, Time: 7.4223s
+Epoch : 006, Training: Loss: 0.0525, Accuracy: 98.2048%, Validation : Loss : 0.1534, Accuracy: 94.6166%, Time: 7.6541s
+Best model saved with test accuracy: 98.3687% at epoch 7
+Epoch : 007, Training: Loss: 0.0459, Accuracy: 98.3680%, Validation : Loss : 0.0409, Accuracy: 98.3687%, Time: 7.7513s
+Best model saved with test accuracy: 98.8581% at epoch 8
+Epoch : 008, Training: Loss: 0.0322, Accuracy: 98.9800%, Validation : Loss : 0.0366, Accuracy: 98.8581%, Time: 7.7476s
+Epoch : 009, Training: Loss: 0.0336, Accuracy: 98.6128%, Validation : Loss : 0.0361, Accuracy: 98.5318%, Time: 7.5262s
+Epoch : 010, Training: Loss: 0.0361, Accuracy: 98.7760%, Validation : Loss : 0.0426, Accuracy: 97.7162%, Time: 8.2508s
+Best model saved with test accuracy: 99.3475% at epoch 11
+Epoch : 011, Training: Loss: 0.0314, Accuracy: 98.9392%, Validation : Loss : 0.0256, Accuracy: 99.3475%, Time: 7.7140s
+Epoch : 012, Training: Loss: 0.0201, Accuracy: 99.3064%, Validation : Loss : 0.0352, Accuracy: 98.6949%, Time: 7.4337s
+Epoch : 013, Training: Loss: 0.0324, Accuracy: 98.4904%, Validation : Loss : 0.0528, Accuracy: 98.2055%, Time: 7.2013s
+Epoch : 014, Training: Loss: 0.0223, Accuracy: 99.3064%, Validation : Loss : 0.0332, Accuracy: 98.8581%, Time: 7.3723s
+Best model saved with test accuracy: 99.5106% at epoch 15
+Epoch : 015, Training: Loss: 0.0183, Accuracy: 99.3064%, Validation : Loss : 0.0249, Accuracy: 99.5106%, Time: 7.7151s
+Epoch : 016, Training: Loss: 0.0204, Accuracy: 99.2248%, Validation : Loss : 0.0429, Accuracy: 98.6949%, Time: 7.4731s
+Epoch : 017, Training: Loss: 0.0131, Accuracy: 99.5920%, Validation : Loss : 0.0242, Accuracy: 99.1843%, Time: 7.5588s
+Epoch : 018, Training: Loss: 0.0213, Accuracy: 99.2656%, Validation : Loss : 0.0377, Accuracy: 98.6949%, Time: 7.4974s
+Best model saved with test accuracy: 99.6737% at epoch 19
+Epoch : 019, Training: Loss: 0.0127, Accuracy: 99.5104%, Validation : Loss : 0.0204, Accuracy: 99.6737%, Time: 7.9044s
+Epoch : 020, Training: Loss: 0.0087, Accuracy: 99.7144%, Validation : Loss : 0.0427, Accuracy: 98.3687%, Time: 7.5667s
+Epoch : 021, Training: Loss: 0.0169, Accuracy: 99.3472%, Validation : Loss : 0.0443, Accuracy: 98.6949%, Time: 7.6779s
+Epoch : 022, Training: Loss: 0.0117, Accuracy: 99.6328%, Validation : Loss : 0.0337, Accuracy: 99.0212%, Time: 7.6208s
+Epoch : 023, Training: Loss: 0.0100, Accuracy: 99.6736%, Validation : Loss : 0.0194, Accuracy: 99.5106%, Time: 7.7169s
+Epoch : 024, Training: Loss: 0.0133, Accuracy: 99.5512%, Validation : Loss : 0.0247, Accuracy: 99.1843%, Time: 7.5068s
+Epoch : 025, Training: Loss: 0.0145, Accuracy: 99.3880%, Validation : Loss : 0.0780, Accuracy: 96.9005%, Time: 7.2060s
+Epoch : 026, Training: Loss: 0.0145, Accuracy: 99.4696%, Validation : Loss : 0.0181, Accuracy: 99.1843%, Time: 7.4228s
+Epoch : 027, Training: Loss: 0.0073, Accuracy: 99.7552%, Validation : Loss : 0.0166, Accuracy: 99.5106%, Time: 7.6319s
+Epoch : 028, Training: Loss: 0.0064, Accuracy: 99.9184%, Validation : Loss : 0.0209, Accuracy: 99.1843%, Time: 8.1142s
+Epoch : 029, Training: Loss: 0.0044, Accuracy: 99.9184%, Validation : Loss : 0.0252, Accuracy: 99.0212%, Time: 7.6702s
+flag1
+Last epoch :  29
+Training Finished for   mobilenetForImageClassification
+len(train_acc_list)  29
+len(valid_acc_list)  29
+== On test data ==
+Test Accuracy: 99.6737%
+Precision: 0.9965
+Recall: 0.9971
+F1 Score: 0.9968
+Confusion Matrix:
+[[139   0   0]
+ [  1 285   0]
+ [  0   1 187]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9929    1.0000    0.9964       139
+           1     0.9965    0.9965    0.9965       286
+           2     1.0000    0.9947    0.9973       188
+
+    accuracy                         0.9967       613
+   macro avg     0.9965    0.9971    0.9968       613
+weighted avg     0.9967    0.9967    0.9967       613
+
+Class 0: Accuracy = 100.0000%
+Class 1: Accuracy = 99.6503%
+Class 2: Accuracy = 99.4681%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  mobilenetForImageClassification
+
+
+Training started with  googlenetForImageClassification
+== googlenetForImageClassification ==
+Best model saved with test accuracy: 92.6591% at epoch 1
+Epoch : 001, Training: Loss: 0.4492, Accuracy: 82.7825%, Validation : Loss : 0.2010, Accuracy: 92.6591%, Time: 9.4006s
+Best model saved with test accuracy: 94.7798% at epoch 2
+Epoch : 002, Training: Loss: 0.1680, Accuracy: 94.4512%, Validation : Loss : 0.1471, Accuracy: 94.7798%, Time: 8.7594s
+Best model saved with test accuracy: 96.0848% at epoch 3
+Epoch : 003, Training: Loss: 0.1052, Accuracy: 96.3280%, Validation : Loss : 0.1027, Accuracy: 96.0848%, Time: 9.2982s
+Epoch : 004, Training: Loss: 0.0828, Accuracy: 97.3888%, Validation : Loss : 0.1281, Accuracy: 96.0848%, Time: 8.5180s
+Best model saved with test accuracy: 96.7374% at epoch 5
+Epoch : 005, Training: Loss: 0.0585, Accuracy: 98.2048%, Validation : Loss : 0.1038, Accuracy: 96.7374%, Time: 8.9524s
+Best model saved with test accuracy: 97.2268% at epoch 6
+Epoch : 006, Training: Loss: 0.0549, Accuracy: 98.3680%, Validation : Loss : 0.0700, Accuracy: 97.2268%, Time: 10.0697s
+Best model saved with test accuracy: 97.8793% at epoch 7
+Epoch : 007, Training: Loss: 0.0411, Accuracy: 98.5720%, Validation : Loss : 0.0657, Accuracy: 97.8793%, Time: 9.0901s
+Epoch : 008, Training: Loss: 0.0356, Accuracy: 98.8168%, Validation : Loss : 0.0935, Accuracy: 97.3899%, Time: 8.2796s
+Epoch : 009, Training: Loss: 0.0310, Accuracy: 98.8984%, Validation : Loss : 0.1170, Accuracy: 96.0848%, Time: 8.9641s
+Best model saved with test accuracy: 98.0424% at epoch 10
+Epoch : 010, Training: Loss: 0.0285, Accuracy: 99.1840%, Validation : Loss : 0.0566, Accuracy: 98.0424%, Time: 9.0304s
+Epoch : 011, Training: Loss: 0.0372, Accuracy: 98.6944%, Validation : Loss : 0.0681, Accuracy: 97.7162%, Time: 8.6031s
+Best model saved with test accuracy: 98.2055% at epoch 12
+Epoch : 012, Training: Loss: 0.0259, Accuracy: 99.1840%, Validation : Loss : 0.0688, Accuracy: 98.2055%, Time: 8.9342s
+Epoch : 013, Training: Loss: 0.0114, Accuracy: 99.7144%, Validation : Loss : 0.0593, Accuracy: 98.0424%, Time: 9.0982s
+Epoch : 014, Training: Loss: 0.0131, Accuracy: 99.5920%, Validation : Loss : 0.0814, Accuracy: 98.2055%, Time: 8.2936s
+Epoch : 015, Training: Loss: 0.0216, Accuracy: 99.3064%, Validation : Loss : 0.0687, Accuracy: 97.5530%, Time: 8.9299s
+Epoch : 016, Training: Loss: 0.0182, Accuracy: 99.3064%, Validation : Loss : 0.0763, Accuracy: 98.0424%, Time: 8.4949s
+Epoch : 017, Training: Loss: 0.0105, Accuracy: 99.7552%, Validation : Loss : 0.0655, Accuracy: 97.5530%, Time: 9.1613s
+Epoch : 018, Training: Loss: 0.0114, Accuracy: 99.6736%, Validation : Loss : 0.0663, Accuracy: 97.8793%, Time: 9.5538s
+Best model saved with test accuracy: 98.5318% at epoch 19
+Epoch : 019, Training: Loss: 0.0046, Accuracy: 99.9592%, Validation : Loss : 0.0543, Accuracy: 98.5318%, Time: 9.1897s
+Epoch : 020, Training: Loss: 0.0079, Accuracy: 99.7960%, Validation : Loss : 0.0690, Accuracy: 97.7162%, Time: 9.1227s
+Epoch : 021, Training: Loss: 0.0091, Accuracy: 99.7960%, Validation : Loss : 0.0924, Accuracy: 98.2055%, Time: 9.8026s
+Epoch : 022, Training: Loss: 0.0093, Accuracy: 99.7144%, Validation : Loss : 0.0688, Accuracy: 98.0424%, Time: 8.7242s
+Epoch : 023, Training: Loss: 0.0231, Accuracy: 99.4288%, Validation : Loss : 0.0729, Accuracy: 97.7162%, Time: 9.0385s
+Best model saved with test accuracy: 98.6949% at epoch 24
+Epoch : 024, Training: Loss: 0.0197, Accuracy: 99.2656%, Validation : Loss : 0.0463, Accuracy: 98.6949%, Time: 8.8501s
+Epoch : 025, Training: Loss: 0.0048, Accuracy: 99.8776%, Validation : Loss : 0.0525, Accuracy: 98.2055%, Time: 10.2366s
+Epoch : 026, Training: Loss: 0.0132, Accuracy: 99.6328%, Validation : Loss : 0.0746, Accuracy: 98.0424%, Time: 8.4668s
+Epoch : 027, Training: Loss: 0.0076, Accuracy: 99.7552%, Validation : Loss : 0.0549, Accuracy: 98.6949%, Time: 8.1614s
+Best model saved with test accuracy: 98.6949% at epoch 28
+Epoch : 028, Training: Loss: 0.0103, Accuracy: 99.7144%, Validation : Loss : 0.0566, Accuracy: 98.6949%, Time: 8.7033s
+Best model saved with test accuracy: 99.0212% at epoch 29
+Epoch : 029, Training: Loss: 0.0053, Accuracy: 99.8776%, Validation : Loss : 0.0458, Accuracy: 99.0212%, Time: 9.7025s
+flag1
+Last epoch :  29
+Training Finished for   googlenetForImageClassification
+len(train_acc_list)  29
+len(valid_acc_list)  29
+== On test data ==
+Test Accuracy: 99.0212%
+Precision: 0.9905
+Recall: 0.9881
+F1 Score: 0.9893
+Confusion Matrix:
+[[135   4   0]
+ [  2 284   0]
+ [  0   0 188]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9854    0.9712    0.9783       139
+           1     0.9861    0.9930    0.9895       286
+           2     1.0000    1.0000    1.0000       188
+
+    accuracy                         0.9902       613
+   macro avg     0.9905    0.9881    0.9893       613
+weighted avg     0.9902    0.9902    0.9902       613
+
+Class 0: Accuracy = 97.1223%
+Class 1: Accuracy = 99.3007%
+Class 2: Accuracy = 100.0000%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  googlenetForImageClassification
+
+
+Training started with  efficientnet_b0ForImageClassification
+== efficientnet_b0ForImageClassification ==
+Best model saved with test accuracy: 92.1697% at epoch 1
+Epoch : 001, Training: Loss: 0.5310, Accuracy: 80.5794%, Validation : Loss : 0.2269, Accuracy: 92.1697%, Time: 10.0417s
+Best model saved with test accuracy: 94.7798% at epoch 2
+Epoch : 002, Training: Loss: 0.2256, Accuracy: 92.1257%, Validation : Loss : 0.1352, Accuracy: 94.7798%, Time: 10.6139s
+Best model saved with test accuracy: 96.0848% at epoch 3
+Epoch : 003, Training: Loss: 0.1320, Accuracy: 95.3896%, Validation : Loss : 0.1056, Accuracy: 96.0848%, Time: 11.7989s
+Epoch : 004, Training: Loss: 0.0940, Accuracy: 96.6952%, Validation : Loss : 0.0981, Accuracy: 95.5954%, Time: 10.0458s
+Best model saved with test accuracy: 98.2055% at epoch 5
+Epoch : 005, Training: Loss: 0.0719, Accuracy: 97.7968%, Validation : Loss : 0.0621, Accuracy: 98.2055%, Time: 9.3196s
+Epoch : 006, Training: Loss: 0.0526, Accuracy: 98.1232%, Validation : Loss : 0.0828, Accuracy: 97.5530%, Time: 9.9054s
+Epoch : 007, Training: Loss: 0.0452, Accuracy: 98.5720%, Validation : Loss : 0.0466, Accuracy: 98.0424%, Time: 10.3685s
+Best model saved with test accuracy: 98.6949% at epoch 8
+Epoch : 008, Training: Loss: 0.0391, Accuracy: 98.6944%, Validation : Loss : 0.0419, Accuracy: 98.6949%, Time: 9.3938s
+Epoch : 009, Training: Loss: 0.0339, Accuracy: 98.8168%, Validation : Loss : 0.0444, Accuracy: 98.2055%, Time: 9.4457s
+Epoch : 010, Training: Loss: 0.0196, Accuracy: 99.4696%, Validation : Loss : 0.0493, Accuracy: 98.5318%, Time: 9.3849s
+Epoch : 011, Training: Loss: 0.0275, Accuracy: 98.9800%, Validation : Loss : 0.0713, Accuracy: 97.8793%, Time: 9.8051s
+Epoch : 012, Training: Loss: 0.0300, Accuracy: 99.0616%, Validation : Loss : 0.0670, Accuracy: 97.2268%, Time: 10.3931s
+Epoch : 013, Training: Loss: 0.0298, Accuracy: 99.0208%, Validation : Loss : 0.0619, Accuracy: 97.2268%, Time: 9.7119s
+Epoch : 014, Training: Loss: 0.0222, Accuracy: 99.3880%, Validation : Loss : 0.0714, Accuracy: 97.5530%, Time: 10.8591s
+Epoch : 015, Training: Loss: 0.0172, Accuracy: 99.5920%, Validation : Loss : 0.0384, Accuracy: 98.2055%, Time: 9.7925s
+Epoch : 016, Training: Loss: 0.0182, Accuracy: 99.5104%, Validation : Loss : 0.0457, Accuracy: 98.2055%, Time: 10.6956s
+Best model saved with test accuracy: 98.8581% at epoch 17
+Epoch : 017, Training: Loss: 0.0152, Accuracy: 99.3880%, Validation : Loss : 0.0306, Accuracy: 98.8581%, Time: 11.7115s
+Best model saved with test accuracy: 98.8581% at epoch 18
+Epoch : 018, Training: Loss: 0.0169, Accuracy: 99.4288%, Validation : Loss : 0.0312, Accuracy: 98.8581%, Time: 10.5622s
+Epoch : 019, Training: Loss: 0.0105, Accuracy: 99.8368%, Validation : Loss : 0.0440, Accuracy: 98.3687%, Time: 9.6725s
+Epoch : 020, Training: Loss: 0.0173, Accuracy: 99.5512%, Validation : Loss : 0.0343, Accuracy: 98.6949%, Time: 9.9172s
+Epoch : 021, Training: Loss: 0.0074, Accuracy: 99.7144%, Validation : Loss : 0.0339, Accuracy: 98.5318%, Time: 10.9258s
+Best model saved with test accuracy: 99.1843% at epoch 22
+Epoch : 022, Training: Loss: 0.0080, Accuracy: 99.7960%, Validation : Loss : 0.0342, Accuracy: 99.1843%, Time: 11.5598s
+Epoch : 023, Training: Loss: 0.0159, Accuracy: 99.3472%, Validation : Loss : 0.0398, Accuracy: 98.3687%, Time: 11.1160s
+Epoch : 024, Training: Loss: 0.0165, Accuracy: 99.5104%, Validation : Loss : 0.0257, Accuracy: 99.0212%, Time: 11.0122s
+Best model saved with test accuracy: 99.3475% at epoch 25
+Epoch : 025, Training: Loss: 0.0064, Accuracy: 99.9184%, Validation : Loss : 0.0206, Accuracy: 99.3475%, Time: 9.3542s
+Epoch : 026, Training: Loss: 0.0048, Accuracy: 99.8776%, Validation : Loss : 0.0300, Accuracy: 99.1843%, Time: 9.4097s
+Epoch : 027, Training: Loss: 0.0057, Accuracy: 99.7144%, Validation : Loss : 0.0311, Accuracy: 98.8581%, Time: 10.0955s
+Epoch : 028, Training: Loss: 0.0053, Accuracy: 99.9184%, Validation : Loss : 0.0264, Accuracy: 99.1843%, Time: 9.7345s
+Epoch : 029, Training: Loss: 0.0073, Accuracy: 99.8368%, Validation : Loss : 0.0270, Accuracy: 98.8581%, Time: 11.5051s
+flag1
+Last epoch :  29
+Training Finished for   efficientnet_b0ForImageClassification
+len(train_acc_list)  29
+len(valid_acc_list)  29
+== On test data ==
+Test Accuracy: 99.3475%
+Precision: 0.9917
+Recall: 0.9941
+F1 Score: 0.9929
+Confusion Matrix:
+[[138   1   0]
+ [  3 283   0]
+ [  0   0 188]]
+classification report
+
+              precision    recall  f1-score   support
+
+           0     0.9787    0.9928    0.9857       139
+           1     0.9965    0.9895    0.9930       286
+           2     1.0000    1.0000    1.0000       188
+
+    accuracy                         0.9935       613
+   macro avg     0.9917    0.9941    0.9929       613
+weighted avg     0.9935    0.9935    0.9935       613
+
+Class 0: Accuracy = 99.2806%
+Class 1: Accuracy = 98.9510%
+Class 2: Accuracy = 100.0000%
+= = = = = = = = flag 1.12 = = = = = = = = = = = = =
+finished for  efficientnet_b0ForImageClassification
+= = = = = = = = execution finished = = = = = = = = = = = = =
